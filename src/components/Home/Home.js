@@ -15,7 +15,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
   return (
-    <section>
+    <section className="HomeHeroSection">
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
@@ -35,6 +35,7 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: "left", width: "max-content" }}>
                 <Type />
+                <p style={{color:"white"}}>(If you have a better gradient in mind pls let me know)</p>
               </div>
             </Col>
 
@@ -50,6 +51,7 @@ function Home() {
         </Container>
       </Container>
       <h1 style={{ color: "white" }}>FIND US ON</h1>
+      <p style={{color:"white"}}>(We should look into populating our IG, making a linkedin, making a dribble)</p>
       <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

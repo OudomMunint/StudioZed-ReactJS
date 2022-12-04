@@ -1,3 +1,7 @@
+:root {
+  --light: #7BFFB5;
+  --dark: #0E33FF;
+}
 :root { font-family: 'Inter', sans-serif !important; }
 @supports (font-variation-settings: normal) {
 :root { font-family: 'Inter var', sans-serif !important; }
@@ -6,19 +10,20 @@
   font-family: Inter var !important;
 }
 html {
-  /* --section-background-color: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
-  ); */
+/* This only changes the bg of about, project */
+  --section-background-color: linear-gradient(to top, #30cfd0 -90%, #330867 100%);;
 
-  --image-gradient: linear-gradient(
-    to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
-  );
+  --image-gradient: linear-gradient(to top, #30cfd0 -90%, #330867 100%);;
 
   --imp-text-color: #c770f0;
+}
+/* Must add this unique class in order for home to take BG */
+.HomeHeroSection{
+  position: relative;
+  height: 100vh;
+  /* background: linear-gradient( to bottom left, rgba(0, 0, 0, 0.678), rgba(255,192,203, 0.200), rgba(22, 17, 37, 0.863) ); */
+  background: linear-gradient(to top, #30cfd0 -50%, #330867 100%);
+  z-index: -1;
 }
 
 .purple {
@@ -83,7 +88,11 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: #1b1a2ea9 !important;
+  background-color: linear-gradient(
+    to bottom left,
+    rgba(0, 79, 182, 0.678),
+    rgba(0, 184, 92, 0.863)
+  ) !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;
@@ -255,6 +264,7 @@ button:focus {
   background-size: cover !important;
   width: 100%;
   height: 100%;
+  display: none; /* disabled for testing */
 }
 
 .home-header {
