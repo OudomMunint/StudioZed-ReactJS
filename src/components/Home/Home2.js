@@ -18,10 +18,10 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
           
-            <h1 style={{ fontSize: "2.2em" }}>
+            <h1 style={{ fontSize: "2.2em", width: "500px", textAlign: "left"  }}>
               A University Of Newcastle <span className="purple"> Student Led </span> Design Studio.
             </h1>
-            <p className="home-about-body">
+            <p className="home-about-body" style={{width: "600px", textAlign: "left", fontSize: "2.2em"  }}>
               <br />
               <br />We work together with
               <i>
@@ -59,11 +59,11 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND US ON</h1>
+            {/* <h1>FIND US ON</h1> */}
             {/* <p>
               Feel free to <span className="purple">connect </span>with me
             </p> */}
-            <ul className="home-about-social-links">
+            {/* <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href=""
@@ -103,7 +103,7 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
-            </ul>
+            </ul> */}
           </Col>
         </Row>
       </Container>
