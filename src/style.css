@@ -410,6 +410,7 @@ button:focus {
   display: inline-block !important;
   padding-right: 15px;
   padding-left: 15px;
+  z-index: 1;
 }
 
 .icon-colour {
