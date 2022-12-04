@@ -33,8 +33,8 @@ function Projects() {
               isBlog={false}
               title="Public Art workers"
               description="A website, Logo and branding for a newly formed company called Public art workers."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              //ghLink="https://github.com/soumyajit4419/Chatify"
+              //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
@@ -44,8 +44,8 @@ function Projects() {
               isBlog={false}
               title="John Hunter Health anniversary book"
               description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              //ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              //demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -55,8 +55,8 @@ function Projects() {
               isBlog={false}
               title="Local Connections restuarant"
               description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              //ghLink="https://github.com/soumyajit4419/Editor.io"
+              //demoLink="https://editor.soumya-jit.tech/"              
             />
           </Col>
 
@@ -66,8 +66,8 @@ function Projects() {
               isBlog={false}
               title="Newcastle art gallery"
               description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              //ghLink="https://github.com/soumyajit4419/Plant_AI"
+              //demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
 
@@ -77,7 +77,7 @@ function Projects() {
               isBlog={false}
               title="Warners Bay kids book"
               description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              //ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -88,7 +88,7 @@ function Projects() {
               isBlog={false}
               title="Water conservation kids book"
               description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              //ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
