@@ -1,5 +1,6 @@
 import React from "react";
 import Particles from "react-tsparticles";
+import AnimatedBg from "react-animated-bg";
 
 function Particle() {
   return (
