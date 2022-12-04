@@ -57,13 +57,13 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
-        <Row>
+        {/* <Row>
           <Col md={12} className="home-about-social">
-            {/* <h1>FIND US ON</h1> */}
-            {/* <p>
+            <h1>FIND US ON</h1>
+            <p>
               Feel free to <span className="purple">connect </span>with me
-            </p> */}
-            {/* <ul className="home-about-social-links">
+            </p>
+            <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href=""
@@ -88,7 +88,7 @@ function Home2() {
                   href="https://www.linkedin.com/in/soumyajit4419/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                  className="icon-colour  home-social-icons"  
                 >
                   <FaLinkedinIn />
                 </a>
@@ -103,9 +103,9 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
-            </ul> */}
+            </ul>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );
