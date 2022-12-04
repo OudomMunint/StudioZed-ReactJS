@@ -1,3 +1,7 @@
+body {
+  z-index: -1;
+    position: relative;
+}
 :root {
   --light: #7BFFB5;
   --dark: #0E33FF;
