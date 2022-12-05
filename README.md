@@ -24,7 +24,7 @@ This project was built using these technologies.
 - Bootstrap
 
 ## Getting Started
-- Install `node.js` and `git` globally on ur machine.
+- Install <a href="https://nodejs.org/en/download/">Node Js</a> and <a href="https://git-scm.com/downloads">Git</a> globally on ur machine.
 - Clone, download or fork this repository.
 - Open the project with your IDE, use "Open Folder method"
 - Delete all files that have a ".lock" as file extension.
