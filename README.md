@@ -1,10 +1,7 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="http://soumya-jit.tech/" target="_blank">soumyajit.tech</a>
+  Studio Zed project made with React Js<br/>
+  <a href="https://studiozed.netlify.app/" target="_blank">Studio Zed</a>
 </h2>
-<div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
-</div>
 
 <br/>
 
