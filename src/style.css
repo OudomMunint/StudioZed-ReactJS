@@ -13,6 +13,9 @@ body {
 * {
   font-family: Inter var !important;
 }
+.row {
+  margin-right: 0px!important;
+}
 html {
 /* This only changes the bg of about, project */
   --section-background-color: linear-gradient(to top, #30cfd0 -90%, #330867 100%);;
