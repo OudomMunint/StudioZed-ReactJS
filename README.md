@@ -8,8 +8,6 @@
 <h3 align="center">
     🔹
     <a href="https://github.com/OudomMunint/StudioZed-ReactJS/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/OudomMunint/StudioZed-ReactJS/issues">Request Feature</a>
 </h3>
 
 ## Built With
