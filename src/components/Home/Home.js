@@ -35,7 +35,7 @@ function Home() {
 
               <div style={{ padding: 50, textAlign: "left", width: "max-content" }}>
                 <Type />
-                <p style={{color:"white"}}>(If you have a better gradient in mind pls let me know)</p>
+                {/* <p style={{color:"white"}}>(If you have a better gradient in mind pls let me know)</p> */}
               </div>
             </Col>
 
@@ -53,7 +53,7 @@ function Home() {
       <Row>
           <Col md={12} className="home-about-social">
       <h1 style={{ color: "white" }}>FIND US ON</h1>
-      <p style={{color:"white"}}>(We should look into populating our IG, making a linkedin, making a dribble. for now these will redirect to instagram.)</p>
+      {/* <p style={{color:"white"}}>(We should look into populating our IG, making a linkedin, making a dribble. for now these will redirect to instagram.)</p> */}
       <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

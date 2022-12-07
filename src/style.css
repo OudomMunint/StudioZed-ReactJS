@@ -33,6 +33,15 @@ html {
   z-index: -1;
 }
 
+@media only screen and (max-width: 990px) {
+  .home-about-body{
+    width: auto !important;
+  }
+  .home2H1 {
+    width: auto !important;
+  }
+}
+
 .purple {
   color: var(--imp-text-color) !important;
 }
