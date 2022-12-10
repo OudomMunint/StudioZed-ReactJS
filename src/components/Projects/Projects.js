@@ -14,6 +14,7 @@ import wanersbay from "../../Assets/Projects/WarnersBayKids.png";
 import newcastleArt from "../../Assets/Projects/newcastleArt.png";
 import water from "../../Assets/Projects/water.png";
 import JH from "../../Assets/Projects/JH.png";
+import tina from "../../Assets/Projects/tina.png";
 
 function Projects() {
   return (
@@ -79,6 +80,39 @@ function Projects() {
               description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
               //ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={water}
+              isBlog={false}
+              title="Water conservation kids book"
+              description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
+              //ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={water}
+              isBlog={false}
+              title="This Is Not Art Program"
+              description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
+              //ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={water}
+              isBlog={false}
+              title="Water conservation kids book"
+              description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
+              //ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
 
