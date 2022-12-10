@@ -15,6 +15,8 @@ import newcastleArt from "../../Assets/Projects/newcastleArt.png";
 import water from "../../Assets/Projects/water.png";
 import JH from "../../Assets/Projects/JH.png";
 import tina from "../../Assets/Projects/tina.png";
+import noWorries from "../../Assets/Projects/noWorry.png"
+import air from "../../Assets/Projects/air.png"
 
 function Projects() {
   return (
@@ -96,7 +98,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={water}
+              imgPath={tina}
               isBlog={false}
               title="This Is Not Art Program"
               description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
@@ -107,9 +109,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={water}
+              imgPath={noWorries}
               isBlog={false}
-              title="Water conservation kids book"
+              title="No worries rebranding and website"
               description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
               //ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
@@ -118,9 +120,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={water}
+              imgPath={air}
               isBlog={false}
-              title="Water conservation kids book"
+              title="Art in Recovery rebrading and commemorative book"
               description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
               //ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
