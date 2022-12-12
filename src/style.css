@@ -31,6 +31,10 @@ html {
   height: 100vh;
   /* background: linear-gradient( to bottom left, rgba(0, 0, 0, 0.678), rgba(255,192,203, 0.200), rgba(22, 17, 37, 0.863) ); */
   background: linear-gradient(to top, #30cfd0 -50%, #330867 100%);
+  /* background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%); */
+  /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
+  /* background-image: linear-gradient(to bottom, #9795f0 0%, #fbc8d4 100%); */
+  /* background-image: linear-gradient(to bottom, #7028e4 0%, #e5b2ca 100%); */
   z-index: -1;
 }
 
