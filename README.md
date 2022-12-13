@@ -6,7 +6,8 @@
 <br/>
 
 <h3 align="center">
-    🔹
+    <span className="wave" role="img" aria-labelledby="wave">
+                  👋🏻
     <a href="https://github.com/OudomMunint/StudioZed-ReactJS/issues">Report Bug</a> &nbsp; &nbsp;
 </h3>
 
