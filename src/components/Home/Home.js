@@ -52,9 +52,9 @@ function Home() {
       </Container>
       <Row>
           <Col md={12} className="home-about-social">
-      <h1 style={{ color: "white" }}>FIND US ON</h1>
+      {/* <h1 style={{ color: "white" }}>FIND US ON</h1> */}
       {/* <p style={{color:"white"}}>(We should look into populating our IG, making a linkedin, making a dribble. for now these will redirect to instagram.)</p> */}
-      <ul className="home-about-social-links">
+      {/* <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/stoodiozed/?hl=en"
@@ -94,7 +94,7 @@ function Home() {
                   <AiFillInstagram />
                 </a>
               </li>
-            </ul>
+            </ul> */}
             </Col>
             </Row>
       {/* <Home2 /> */}
