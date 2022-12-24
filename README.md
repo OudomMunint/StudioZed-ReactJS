@@ -11,6 +11,9 @@
     <a href="https://github.com/OudomMunint/StudioZed-ReactJS/issues">Report Bug</a> &nbsp; &nbsp;
 </h3>
 
+#### Deploy status:
+[![Netlify Status](https://api.netlify.com/api/v1/badges/90886fb8-9a2a-4a28-b66e-6c38af5d8ce9/deploy-status)](https://app.netlify.com/sites/studiozed/deploys)
+
 ## Built With
 This project was built using these technologies.
 
