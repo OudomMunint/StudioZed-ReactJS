@@ -161,7 +161,7 @@ function Home2() {
 {/* Simone section */}
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={8} className="home-about-description2">
             <p className="home-about-body" style={{width: "500px", textAlign: "left", fontSize: "2.2em"}}>
               <br />
               <br />Meet <b><a target="_blank" href="https://www.linkedin.com/in/simoneo/" style={{textDecoration:"none", color:"white"}} className="purple">Simone, </a></b>
@@ -188,7 +188,7 @@ function Home2() {
                 </a>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar2">
             <Tilt>
               <img src={simone} className="img-fluid" alt="avatar" style={{ minHeight: "450px"}}/>
               <a target="_blank" href="https://www.linkedin.com/in/simoneo/"><figcaption style={{color:"white", textDecoration:"none"}}>@Simone O'Callaghan</figcaption></a>
