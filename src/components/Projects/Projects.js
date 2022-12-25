@@ -30,18 +30,18 @@ function Projects() {
           Here are a few projects that we've worked on
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+          <Col md={42} className="project-card">
             <ProjectCard
               imgPath={publicartworkers}
               isBlog={false}
-              title="Public Art workers"
+              title="Public Art Workers website and branding"
               description="A website, Logo and branding for a newly formed company called Public art workers."
               //ghLink="https://github.com/soumyajit4419/Chatify"
               //demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={42} className="project-card">
             <ProjectCard
               imgPath={JH}
               isBlog={false}
@@ -52,7 +52,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={42} className="project-card">
             <ProjectCard
               imgPath={LocalConnect}
               isBlog={false}
@@ -63,7 +63,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={42} className="project-card">
             <ProjectCard
               imgPath={newcastleArt}
               isBlog={false}
@@ -74,7 +74,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={42} className="project-card">
             <ProjectCard
               imgPath={wanersbay}
               isBlog={false}
@@ -85,7 +85,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={42} className="project-card">
             <ProjectCard
               imgPath={water}
               isBlog={false}
@@ -96,7 +96,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={42} className="project-card">
             <ProjectCard
               imgPath={tina}
               isBlog={false}
@@ -107,7 +107,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={42} className="project-card">
             <ProjectCard
               imgPath={noWorries}
               isBlog={false}
@@ -118,7 +118,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          <Col md={42} className="project-card">
             <ProjectCard
               imgPath={air}
               isBlog={false}

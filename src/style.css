@@ -791,6 +791,11 @@ a {
   background-color: #a24dd386 !important;
   border-color: #a24dd386 !important;
 }
+
 .fork-btn-inner::after {
   display: none !important;
+}
+
+.col-md-42 {
+  width: 50% !important;
 }

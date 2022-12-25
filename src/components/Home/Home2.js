@@ -144,7 +144,7 @@ function Home2() {
                   <AiFillInstagram />
                 </b>
               </a>
-              &nbsp;or
+              &nbsp;or&nbsp;
               <a target="_blank " href="https://www.instagram.com/zookraft/?hl=en">
                 <b className="white" style={{fontSize:"30px"}}><AiFillLinkedin/></b>
                 </a>
