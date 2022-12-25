@@ -131,7 +131,7 @@ function Home2() {
               He is also a very talented &nbsp;
               <i>
                 <b className="purple">llustrator</b> and{" "}
-                <b className="purple">Designer.</b>
+                <b className="purple">Designer.</b> With many years of Industry experience.
               </i>
               <br />
               <br />
@@ -165,7 +165,7 @@ function Home2() {
             <p className="home-about-body" style={{width: "500px", textAlign: "left", fontSize: "2.2em"}}>
               <br />
               <br />Meet <b><a target="_blank" href="https://www.linkedin.com/in/simoneo/" style={{textDecoration:"none", color:"white"}} className="purple">Simone, </a></b>
-              Deputy Head of School, Research Training - School of Humanities, Creative Industries, Social Sciences at University of Newcastle and founder at Studio Zed.
+              Deputy Head of Research Training, School of Humanities, Creative Industries, Social Sciences at University of Newcastle and founder at Studio Zed.
               {/* <br />
               {/* <br /> */}
               &nbsp;She is also an experienced&nbsp;
