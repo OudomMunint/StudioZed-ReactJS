@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Student from "../../Assets/home-main.svg"
 import Tilt from "react-parallax-tilt";
+import carl from "../../Assets/carl.svg"
+import simone from "../../Assets/simone.svg"
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -107,6 +109,100 @@ function Home2() {
           </Col>
         </Row> */}
       </Container>
+      {/* about end */}
+
+      {/* Team start */}
+      {/* carl section */}
+      <Container>
+        <Row>
+          <Col md={8} className="home-about-description">
+          
+          <h1 className="project-heading" style={{textAlign: "right"}}>
+          Meet<strong className="purple"> Out Team! </strong>
+        </h1>
+            <p className="home-about-body" style={{width: "500px", textAlign: "left", fontSize: "2.2em"}}>
+              <br />
+              <br />Meet <b><a target="_blank" href="https://www.linkedin.com/in/carl-morgan-7066863b/" style={{textDecoration:"none", color:"white"}} className="purple">Carl, </a></b>
+              <i>
+              Associate Lecturer at University of Newcastle & Co-Founder at Studio Zed.
+              </i>
+              <br />
+              {/* <br /> */}
+              He is also a very talented &nbsp;
+              <i>
+                <b className="purple">llustrator</b> and{" "}
+                <b className="purple">Designer.</b>
+              </i>
+              <br />
+              <br />
+              Reach out to carl on
+              <a target="_blank " href="https://www.instagram.com/zookraft/?hl=en">
+                <b className="purple">
+                  {" "}
+                  IG
+                </b>
+              </a>
+              &nbsp;or
+              <a target="_blank " href="https://www.instagram.com/zookraft/?hl=en">
+                <b className="purple"> linkedin</b>
+                </a>
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={carl} className="img-fluid" alt="avatar" style={{ minHeight: "450px"}}/>
+              <a target="_blank" href="https://www.linkedin.com/in/carl-morgan-7066863b/"><figcaption style={{paddingRight:"40px", color:"white", textDecoration:"none"}}>@Carl Morgan</figcaption></a>
+            </Tilt>
+          </Col>
+        </Row>
+      </Container>
+      {/* carl section End*/}
+
+      {/* Simone section */}
+      <Container>
+        <Row>
+          <Col md={8} className="home-about-description">
+          
+          <h1 className="project-heading" style={{textAlign: "right"}}>
+          Meet<strong className="purple"> Out Team! </strong>
+        </h1>
+            <p className="home-about-body" style={{width: "500px", textAlign: "left", fontSize: "2.2em"}}>
+              <br />
+              <br />Meet <b><a target="_blank" href="https://www.linkedin.com/in/carl-morgan-7066863b/" style={{textDecoration:"none", color:"white"}} className="purple">Carl, </a></b>
+              <i>
+              Associate Lecturer at University of Newcastle & Co-Founder at Studio Zed.
+              </i>
+              <br />
+              {/* <br /> */}
+              He is also a very talented &nbsp;
+              <i>
+                <b className="purple">llustrator</b> and{" "}
+                <b className="purple">Designer.</b>
+              </i>
+              <br />
+              <br />
+              Reach out to carl on
+              <a target="_blank " href="https://www.instagram.com/zookraft/?hl=en">
+                <b className="purple">
+                  {" "}
+                  IG
+                </b>
+              </a>
+              &nbsp;or
+              <a target="_blank " href="https://www.instagram.com/zookraft/?hl=en">
+                <b className="purple"> linkedin</b>
+                </a>
+            </p>
+          </Col>
+          <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={carl} className="img-fluid" alt="avatar" style={{ minHeight: "450px"}}/>
+              <a target="_blank" href="https://www.linkedin.com/in/carl-morgan-7066863b/"><figcaption style={{paddingRight:"40px", color:"white", textDecoration:"none"}}>@Carl Morgan</figcaption></a>
+            </Tilt>
+          </Col>
+        </Row>
+      </Container>
+      {/* Simone section End*/}
     </Container>
   );
 }
