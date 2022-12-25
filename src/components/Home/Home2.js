@@ -170,7 +170,7 @@ function Home2() {
               {/* <br /> */}
               &nbsp;She is also an experienced&nbsp;
               <i>
-                <b className="purple">UI UX Designer, Art Director</b> and{" "}
+                <b className="purple">UI/UX Designer, Art Director</b> and{" "}
                 <b className="purple">Creative Lead.</b>
               </i>
               <br />
