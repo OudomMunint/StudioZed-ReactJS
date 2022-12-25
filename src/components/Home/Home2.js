@@ -10,6 +10,8 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
   AiFillDribbbleCircle,
+  AiFillLinkedin,
+  AiOutlineLinkedin,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -137,14 +139,14 @@ function Home2() {
               <br />
               Reach out to carl on
               <a target="_blank " href="https://www.instagram.com/zookraft/?hl=en">
-                <b className="purple">
+                <b className="white" style={{fontSize:"30px"}}>
                   {" "}
-                  IG
+                  <AiFillInstagram />
                 </b>
               </a>
               &nbsp;or
               <a target="_blank " href="https://www.instagram.com/zookraft/?hl=en">
-                <b className="purple"> linkedin</b>
+                <b className="white" style={{fontSize:"30px"}}><AiFillLinkedin/></b>
                 </a>
             </p>
           </Col>
@@ -184,7 +186,7 @@ function Home2() {
               </a> */}
               &nbsp;
               <a target="_blank " href="https://www.linkedin.com/in/simoneo/">
-                <b className="purple"> linkedin</b>
+                <b className="white" style={{fontSize:"30px"}}><AiFillInstagram /></b>
                 </a>
             </p>
           </Col>
