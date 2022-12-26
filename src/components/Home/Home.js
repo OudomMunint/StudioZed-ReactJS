@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/about.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import designer from "../../Assets/design.svg";
 
 import {
   AiFillGithub,
@@ -41,7 +42,7 @@ function Home() {
 
             <Col className="img-fluid" md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeLogo}
+                src={designer}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}

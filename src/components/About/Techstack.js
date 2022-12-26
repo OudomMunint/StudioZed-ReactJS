@@ -1,6 +1,12 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
+import pubArt from "../../Assets/publicartworkers.png";
+import nsw from "../../Assets/nsw.svg";
+import local from "../../Assets/local.png";
+import nw from "../../Assets/nw.png";
+import air from "../../Assets/air.png";
+import tina from "../../Assets/tina.png";
 import {
   DiJavascript1,
   DiReact,
@@ -19,24 +25,30 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        {/* <CgCPlusPlus /> */}
+        <img src={pubArt} className="img-fluid" alt="avatar" style={{paddingTop:"25px"}}/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        {/* <DiJavascript1 /> */}
+        <img src={nsw} className="img-fluid" alt="avatar"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        {/* <DiNodejs /> */}
+        <img src={local} className="img-fluid" alt="avatar" style={{paddingTop:"5px"}}/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        {/* <DiReact /> */}
+        <img src={nw} className="img-fluid" alt="avatar" style={{paddingTop:"85px"}}/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        {/* <DiMongodb /> */}
+        <img src={air} className="img-fluid" alt="avatar"/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+        {/* <SiNextdotjs /> */}
+        <img src={tina} className="img-fluid" alt="avatar"/>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -47,7 +59,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiPytorch />
-      </Col>
+      </Col> */}
     </Row>
   );
 }
