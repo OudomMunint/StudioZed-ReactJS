@@ -207,7 +207,7 @@ a {
 }
 
 .navbar-nav .nav-link {
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
