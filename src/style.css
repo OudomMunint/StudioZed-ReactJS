@@ -19,18 +19,20 @@ body {
 }
 html {
 /* This only changes the bg of about, project */
-  --section-background-color: linear-gradient(to top, #30cfd0 -90%, #330867 100%);;
+  /* --section-background-color: linear-gradient(to top, #30cfd0 -90%, #330867 100%); */
+  /* --section-background-color: black !important; */
 
-  --image-gradient: linear-gradient(to top, #30cfd0 -90%, #330867 100%);;
+  /* --image-gradient: linear-gradient(to top, #30cfd0 -90%, #330867 100%); */
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #9700dd;
 }
 /* Must add this unique class in order for home to take BG */
 .HomeHeroSection{
   position: relative;
   height: 100vh;
   /* background: linear-gradient( to bottom left, rgba(0, 0, 0, 0.678), rgba(255,192,203, 0.200), rgba(22, 17, 37, 0.863) ); */
-  background: linear-gradient(to top, #30cfd0 -50%, #330867 100%);
+  /* background: linear-gradient(to top, #30cfd0 -50%, #330867 100%); */
+  background-color: rgb(227, 227, 227);
   /* background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%); */
   /* background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%); */
   /* background-image: linear-gradient(to bottom, #9795f0 0%, #fbc8d4 100%); */
@@ -312,7 +314,7 @@ a {
 
 .home-content {
   padding: 9rem 0 2rem !important;
-  color: whitesmoke;
+  color: rgb(0, 0, 0);
   text-align: left;
 }
 
@@ -376,7 +378,7 @@ a {
 }
 
 .home-about-description {
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   padding-top: 100px !important;
   padding-bottom: 20px !important;
   text-align: center;
@@ -501,7 +503,8 @@ a {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
+  /* background-image: var(--section-background-color) !important; */
+  background-color: rgb(227, 227, 227);
 }
 
 .project-card {
@@ -585,7 +588,7 @@ a {
   box-shadow: none !important;
 }
 .project-heading {
-  color: white !important;
+  color: rgb(0, 0, 0) !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -599,8 +602,8 @@ a {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
+  background-color: rgb(227, 227, 227) !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 .tech-icons {
