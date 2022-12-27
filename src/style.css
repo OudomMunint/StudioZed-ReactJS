@@ -629,6 +629,18 @@ a {
   .img-fluid{
     min-height: 1px !important;
   }
+
+  /* shows only one tile when Screen < 767px */
+  .col-md-42 {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) {
+.col-md-42 {
+    flex: 0 0 auto;
+    width: 50% !important;
+}
 }
 
 .about-section {
@@ -830,8 +842,4 @@ a {
 
 .fork-btn-inner::after {
   display: none !important;
-}
-
-.col-md-42 {
-  width: 50% !important;
 }
