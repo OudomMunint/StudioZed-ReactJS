@@ -187,7 +187,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    /* background-color: #181a27 !important; */
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -594,9 +594,42 @@ a {
   padding-top: 10px !important;
 }
 
+@media (max-width: 767px) {
+  .project-heading {
+    text-align: center !important;
+  }
+}
+
 /* --------- */
 /* About */
 /* --------- */
+
+@media (max-width: 767px) {
+  #carlContainer{
+      background-color: white !important;
+      border-radius: 30px !important;
+      padding: 50px;
+      box-shadow: 2.5px 2.5px 2.5px grey;
+      /* width: 100% !important; */
+  }
+  
+  #simoneContainer{
+    background-color: white !important;
+    border-radius: 30px !important;
+    padding: 50px;
+    box-shadow: 2.5px 2.5px 2.5px grey;
+    /* width: 100% !important; */
+  }
+
+  /* Reusable Spacer */
+  #spacer{
+  height: 20px;
+}
+
+  .img-fluid{
+    min-height: 1px !important;
+  }
+}
 
 .about-section {
   position: relative !important;
