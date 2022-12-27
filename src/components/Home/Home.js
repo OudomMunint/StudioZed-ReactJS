@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/about.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import designer from "../../Assets/design.svg";
 
 import {
   AiFillGithub,
@@ -41,7 +42,7 @@ function Home() {
 
             <Col className="img-fluid" md={5} style={{ paddingBottom: 20 }}>
               <img
-                src={homeLogo}
+                src={designer}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
@@ -50,11 +51,11 @@ function Home() {
           </Row>
         </Container>
       </Container>
-      <Row>
+      {/* <Row>
           <Col md={12} className="home-about-social">
-      {/* <h1 style={{ color: "white" }}>FIND US ON</h1> */}
-      {/* <p style={{color:"white"}}>(We should look into populating our IG, making a linkedin, making a dribble. for now these will redirect to instagram.)</p> */}
-      {/* <ul className="home-about-social-links">
+      <h1 style={{ color: "white" }}>FIND US ON</h1>
+       <p style={{color:"white"}}>(We should look into populating our IG, making a linkedin, making a dribble. for now these will redirect to instagram.)</p>
+       <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
                   href="https://www.instagram.com/stoodiozed/?hl=en"
@@ -94,9 +95,9 @@ function Home() {
                   <AiFillInstagram />
                 </a>
               </li>
-            </ul> */}
+            </ul>
             </Col>
-            </Row>
+            </Row> */}
       {/* <Home2 /> */}
     </section>
   );

@@ -187,7 +187,7 @@ button:focus {
   .navbar {
     padding: 1rem 2rem !important;
     font-size: 1.4rem !important;
-    background-color: #181a27 !important;
+    /* background-color: #181a27 !important; */
   }
   .navbar-nav .nav-item a::after {
     display: none !important;
@@ -308,7 +308,7 @@ a {
   /* background-image: var(--image-gradient)/* , url(./Assets/home-bg.jpg) */;
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
+  /* padding-bottom: 30px !important; */
   padding-top: 30px !important;
 }
 
@@ -594,9 +594,54 @@ a {
   padding-top: 10px !important;
 }
 
+@media (max-width: 767px) {
+  .project-heading {
+    text-align: center !important;
+  }
+}
+
 /* --------- */
 /* About */
 /* --------- */
+
+@media (max-width: 767px) {
+  #carlContainer{
+      background-color: white !important;
+      border-radius: 30px !important;
+      padding: 50px;
+      box-shadow: 2.5px 2.5px 2.5px grey;
+      /* width: 100% !important; */
+  }
+  
+  #simoneContainer{
+    background-color: white !important;
+    border-radius: 30px !important;
+    padding: 50px;
+    box-shadow: 2.5px 2.5px 2.5px grey;
+    /* width: 100% !important; */
+  }
+
+  /* Reusable Spacer */
+  #spacer{
+  height: 20px;
+}
+
+  .img-fluid{
+    min-height: 1px !important;
+  }
+
+  /* shows only one tile when Screen < 767px */
+  .col-md-42 {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 768px) {
+.col-md-42 {
+    flex: 0 0 auto;
+    width: 50% !important;
+}
+}
 
 .about-section {
   position: relative !important;
@@ -797,8 +842,4 @@ a {
 
 .fork-btn-inner::after {
   display: none !important;
-}
-
-.col-md-42 {
-  width: 50% !important;
 }

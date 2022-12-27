@@ -116,7 +116,7 @@ function Home2() {
 
       {/* Team start */}
       {/* carl section */}
-      <Container>
+      <Container id="carlContainer">
         <Row>
           <Col md={8} className="home-about-description">
           
@@ -159,10 +159,11 @@ function Home2() {
           </Col>
         </Row>
       </Container>
-{/* carl section End*/}
-
-{/* Simone section */}
-      <Container>
+          {/* carl section End*/}
+          <Container id="spacer">
+          </Container>
+          {/* Simone section */}
+      <Container id="simoneContainer">
         <Row>
           <Col md={8} className="home-about-description2">
             <p className="home-about-body" style={{width: "500px", textAlign: "left", fontSize: "2.2em"}}>
