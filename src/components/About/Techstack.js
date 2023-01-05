@@ -7,6 +7,7 @@ import local from "../../Assets/local.png";
 import nw from "../../Assets/nw.png";
 import air from "../../Assets/air.png";
 import tina from "../../Assets/tina.png";
+import nag from "../../Assets/nag.png";
 import {
   DiJavascript1,
   DiReact,
@@ -47,6 +48,10 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         {/* <SiNextdotjs /> */}
         <img src={tina} className="img-fluid" alt="avatar"/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        {/* <SiNextdotjs /> */}
+        <img src={nag} className="img-fluid" alt="avatar"/>
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <DiGit />
