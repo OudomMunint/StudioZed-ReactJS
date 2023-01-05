@@ -21,10 +21,10 @@ function NavBar() {
   const [navColour, updateNavbar] = useState(false);
 
   function scrollHandler() {
-    if (window.scrollY >= 20) {
+    if (window.scrollY >= -1) {
       updateNavbar(true);
     } else {
-      updateNavbar(false);
+      updateNavbar(true);
     }
   }
 
@@ -82,15 +82,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/Contact"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Our Team
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             {/* <Nav.Item>
               <Nav.Link
