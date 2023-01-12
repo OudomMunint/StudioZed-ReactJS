@@ -128,6 +128,17 @@ function Projects() {
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>
+
+          <Col md={42} className="project-card">
+            <ProjectCard
+              //imgPath={air}
+              isBlog={false}
+              title="Head 2 Art website and branding project"
+              description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
+              //ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
