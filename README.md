@@ -13,6 +13,7 @@
 
 #### Deploy status:
 [![Netlify Status](https://api.netlify.com/api/v1/badges/90886fb8-9a2a-4a28-b66e-6c38af5d8ce9/deploy-status)](https://app.netlify.com/sites/studiozed/deploys)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 ## Tech Stack
 This project was built using these technologies.
