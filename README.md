@@ -33,5 +33,5 @@ This project was built using these technologies.
 - Delete all files that have a ".lock" as file extension.
 - Open a terminal inside your IDE workspace.
 - CD into the project's directory.
-- Run npm install.
-- Run npm start.
+- Run `npm` `install`.
+- Run `npm` `start`.
