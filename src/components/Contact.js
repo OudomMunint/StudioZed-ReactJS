@@ -22,8 +22,8 @@ const ContactForm = () => {
           <span></span>
     </div>
       <div class="title">Get in touch!</div>
-      <form onSubmit={onSubmit} netlify netlify-honeypot="bot-field" name='contactForm'>
-        <input type="hidden" name="contactForm'" value="contact" />
+      <form onSubmit={onSubmit} name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <input type="hidden" name="contact" value="contact" />
         <div class="input-container ic1" >
           <label className="form-label" class="Formplaceholder" htmlFor="name">
             Name
