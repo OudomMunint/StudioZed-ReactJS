@@ -22,7 +22,7 @@ const ContactForm = () => {
           <span></span>
     </div>
       <div class="title">Get in touch!</div>
-      <form onSubmit={onSubmit}>
+      <form onSubmit={onSubmit} data-netlify="true">
         <div class="input-container ic1" >
           <label className="form-label" class="Formplaceholder" htmlFor="name">
             Name
