@@ -15,6 +15,11 @@ const ContactForm = () => {
   }
   return (
     <div class="formFlex">
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
     <div class="form">
     <div class="top-bar">
           <span></span>
@@ -23,14 +28,7 @@ const ContactForm = () => {
     </div>
       <div class="title">Get in touch!</div>
 
-      <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-      <input type="text" name="name" />
-      <input type="email" name="email" />
-      <textarea name="message"></textarea>
-    </form>
-
-      <form onSubmit={onSubmit} name="contact" netlify netlify-honeypot="bot-field" hidden>
-        <input type="hidden" name="contact" value="contact" />
+      <form onSubmit={onSubmit}>
         <div class="input-container ic1" >
           <label className="form-label" class="Formplaceholder" htmlFor="name">
             Name
