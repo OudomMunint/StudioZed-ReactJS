@@ -30,7 +30,7 @@ function ContactForm() {
           <span></span>
         </div>
         <div className="title">Get in touch!</div>
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} data-netlify="true">
           <div className="input-container ic1" >
             <label className="form-label" htmlFor="name">
               
