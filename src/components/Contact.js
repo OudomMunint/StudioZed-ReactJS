@@ -18,6 +18,7 @@ function ContactForm() {
       setMessage('');
     } catch (error) {
       console.error('Form submission error:', error);
+      console.log('Error caught');
     }
   };
 
