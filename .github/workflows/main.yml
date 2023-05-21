@@ -56,7 +56,7 @@ jobs:
       # Make an official GitHub release which will trigger
       # sending the email with a link for access
       - name: Release
-        uses: ncipollo/release-action@v2
+        uses: ncipollo/release-action@v1.10.0
         with:
           artifacts: react-github-actions-release-build.zip
           body: https://react-github-actions.s3.amazonaws.com/index.html
