@@ -1,6 +1,3 @@
-# Read more about setting it up
-# https://medium.com/@ljmocic/deploying-react-application-to-aws-s3-using-github-actions-85addacaeace
-
 on:
   push:
     branches:
@@ -17,7 +14,9 @@ jobs:
         with:
           node-version: 18.x
       - name: Install dependencies
-        run: npm install    
+        run: npm install
+      - name: Run ESLint
+        run: npx eslint --no-error-on-unmatched-pattern .
       - name: Generate build
         run: npm run build
       # Share artifact inside workflow
@@ -26,7 +25,7 @@ jobs:
         with:
           name: react-github-actions-build
           path: build
-          
+
   release:
     runs-on: ubuntu-latest
     # We specify that deploys needs to
@@ -35,7 +34,7 @@ jobs:
     steps:
       # Download previously shared build
       - name: Get artifact
-        uses: actions/download-artifact@v1
+        uses: actions/download-artifact@v2
         with:
           name: react-github-actions-build
       # Zip the build using external action
@@ -46,14 +45,14 @@ jobs:
           path: react-github-actions-build
       # Upload as an artifact of the current workflow
       - name: Upload build zip artifact
-        uses: actions/upload-artifact@v1
+        uses: actions/upload-artifact@v2
         with:
           name: react-github-actions-release-build.zip
           path: react-github-actions-release-build.zip
       # Make official GitHub release which will trigger
       # sending the mail with link for access
       - name: Release
-        uses: ncipollo/release-action@v1
+        uses: ncipollo/release-action@v2
         with:
           artifacts: react-github-actions-release-build.zip
           body: https://react-github-actions.s3.amazonaws.com/index.html
