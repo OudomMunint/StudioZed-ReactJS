@@ -1,6 +1,8 @@
 <h2 align="center">
   Studio Zed project made with React Js<br/>
   <a href="https://studiozed.netlify.app/" target="_blank">Visit Studio Zed!</a>
+  
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 </h2>
 
 <br/>
@@ -13,7 +15,8 @@
 
 #### Deploy status:
 [![Netlify Status](https://api.netlify.com/api/v1/badges/90886fb8-9a2a-4a28-b66e-6c38af5d8ce9/deploy-status)](https://app.netlify.com/sites/studiozed/deploys)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![CodeQL](https://github.com/OudomMunint/StudioZed-ReactJS/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/OudomMunint/StudioZed-ReactJS/actions/workflows/github-code-scanning/codeql)
+[![.github/workflows/main.yml](https://github.com/OudomMunint/StudioZed-ReactJS/actions/workflows/main.yml/badge.svg)](https://github.com/OudomMunint/StudioZed-ReactJS/actions/workflows/main.yml)
 
 ## Tech Stack
 This project was built using these technologies.
