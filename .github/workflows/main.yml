@@ -1,4 +1,4 @@
-name: PROD Build + Realase
+name: PROD Build + Release
 on:
   push:
     branches:
@@ -16,14 +16,12 @@ jobs:
           node-version: 18.x
       - name: Install dependencies
         run: npm install
-        
       - name: Run ESLint
         run: npx eslint --no-error-on-unmatched-pattern .
-        
       - name: Generate build
         env:
           CI: false
-          run: npm run build
+        run: npm run build
 
       # Share artifact inside workflow
       - name: Share artifact inside workflow
@@ -34,7 +32,7 @@ jobs:
 
   release:
     runs-on: ubuntu-latest
-    # We specify that deploys needs to
+    # We specify that deploys need to
     # finish before we create a release
     needs: build
     steps:
@@ -55,8 +53,8 @@ jobs:
         with:
           name: react-github-actions-release-build.zip
           path: react-github-actions-release-build.zip
-      # Make official GitHub release which will trigger
-      # sending the mail with link for access
+      # Make an official GitHub release which will trigger
+      # sending the email with a link for access
       - name: Release
         uses: ncipollo/release-action@v2
         with:
