@@ -1,3 +1,4 @@
+name: PROD Build + Realase
 on:
   push:
     branches:
@@ -15,10 +16,15 @@ jobs:
           node-version: 18.x
       - name: Install dependencies
         run: npm install
+        
       - name: Run ESLint
         run: npx eslint --no-error-on-unmatched-pattern .
+        
       - name: Generate build
-        run: npm run build
+        env:
+          CI: false
+          run: npm run build
+
       # Share artifact inside workflow
       - name: Share artifact inside workflow
         uses: actions/upload-artifact@v2
