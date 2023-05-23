@@ -35,4 +35,3 @@ jobs:
         uses: ncipollo/release-action@v1.12.0
         with:
           artifacts: "react-github-actions-build"
-          tags: v1.1.0
