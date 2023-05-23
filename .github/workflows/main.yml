@@ -2,6 +2,8 @@ name: PROD Build + Release
 
 on:
   push:
+    tags:
+      - '*'
     branches:
       - main
 
