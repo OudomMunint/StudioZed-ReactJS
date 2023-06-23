@@ -6,10 +6,7 @@ on:
       - '*'
     branches:
       - main
-    paths:
-      - '**/*.gitignore'
-      - '**/*.gitattributes'
-      - '**/*.md'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -40,4 +37,4 @@ jobs:
         uses: ncipollo/release-action@v1.12.0
         with:
           artifacts: "react-github-actions-build"
-          tag: v1.1.2
+          tag: v1.2.0
