@@ -50,6 +50,7 @@
     ]
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
     "node-sass": "^7.0.3",
     "onchange": "^7.1.0"
   }
