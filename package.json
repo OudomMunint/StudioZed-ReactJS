@@ -29,8 +29,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "postbuild": "purgecss --css build/static/css/*.css --content build/index.html build/static/js/*.js --output build/static/css"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
@@ -51,8 +50,6 @@
     ]
   },
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^5.0.0",
-    "node-sass": "^7.0.3",
-    "onchange": "^7.1.0"
+    "@fullhuman/postcss-purgecss": "^5.0.0"
   }
 }
