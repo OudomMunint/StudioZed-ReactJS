@@ -20,7 +20,6 @@
     "react-parallax-tilt": "^1.7.42",
     "react-pdf": "^5.7.1",
     "react-router-dom": "^6.2.2",
-    "react-scripts": "5.0.0",
     "react-tsparticles": "^1.42.2",
     "sass": "^1.63.6",
     "typewriter-effect": "^2.18.2",
@@ -54,6 +53,7 @@
     "@fullhuman/postcss-purgecss": "^5.0.0",
     "chokidar": "^3.5.3",
     "glob-stream": "^8.0.0",
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "react-scripts": "^5.0.1"
   }
 }
