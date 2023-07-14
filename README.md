@@ -15,7 +15,10 @@
     <a href="https://github.com/OudomMunint/StudioZed-ReactJS/issues">Report Bug</a> &nbsp; &nbsp;
 </h3>
 
-#### Deploy status:
+### Maintenance:
+![maintenance-status](https://img.shields.io/badge/maintenance-passively--maintained-yellowgreen.svg)
+
+### Deploy status:
 [![Netlify Status](https://api.netlify.com/api/v1/badges/90886fb8-9a2a-4a28-b66e-6c38af5d8ce9/deploy-status)](https://app.netlify.com/sites/studiozed/deploys)
 [![CodeQL](https://github.com/OudomMunint/StudioZed-ReactJS/actions/workflows/github-code-scanning/codeql/badge.svg?branch=main)](https://github.com/OudomMunint/StudioZed-ReactJS/actions/workflows/github-code-scanning/codeql)
 [![.github/workflows/main.yml](https://github.com/OudomMunint/StudioZed-ReactJS/actions/workflows/main.yml/badge.svg)](https://github.com/OudomMunint/StudioZed-ReactJS/actions/workflows/main.yml)
@@ -37,6 +40,7 @@ This project was built using these technologies.
 - Open the project with your IDE, use "Open Folder method"
 - Delete all files that have a ".lock" as file extension.
 - Open a terminal inside your IDE workspace.
-- CD into the project's directory.
-- Run `npm` `install`.
-- Run `npm` `start`.
+- `CD` into the project's directory.
+- Run `npm install`.
+- Run `npm start`.
+- To run an optimized production build use `npm run build`
