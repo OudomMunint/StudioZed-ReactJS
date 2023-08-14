@@ -17,9 +17,6 @@ function ContactForm() {
         <form name="contact" method="POST" data-netlify="true" onSubmit={(e) => {
             e.preventDefault();
             alert("Thank you for reaching out! I will get back to you soon.");
-            setName("");
-            setEmail("");
-            setMessage("");
           }}>
 
           <input type="hidden" name="form-name" value="contact" />
