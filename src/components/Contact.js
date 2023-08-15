@@ -6,6 +6,14 @@ function ContactForm() {
   const [message, setMessage] = useState("");
 
   return (
+    <body>
+
+      <form name="contact" netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+      </form>
+
     <div className="formFlex">
       <div className="form">
         <div className="top-bar">
@@ -14,9 +22,8 @@ function ContactForm() {
           <span></span>
         </div>
         <div className="title">Get in touch!</div>
-        <form name="contact" method="POST" data-netlify="true">
-
-          <input type="hidden" name="contact" value="contact" />
+        <form name="contact" method="POST">
+          <input type="hidden" name="form-name" value="contact" />
 
           {/* Name */}
           <div className="input-container ic1">
@@ -47,6 +54,7 @@ function ContactForm() {
         </form>
       </div>
     </div>
+    </body>
   );
 }
 
