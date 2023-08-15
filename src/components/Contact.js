@@ -14,12 +14,9 @@ function ContactForm() {
           <span></span>
         </div>
         <div className="title">Get in touch!</div>
-        <form name="contact" method="POST" data-netlify="true" onSubmit={(e) => {
-            e.preventDefault();
-            alert("Thank you for reaching out! I will get back to you soon.");
-          }}>
+        <form name="contact" method="POST" data-netlify="true">
 
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="contact" value="contact" />
 
           {/* Name */}
           <div className="input-container ic1">
