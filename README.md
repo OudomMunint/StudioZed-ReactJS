@@ -33,6 +33,7 @@ This project was built using these technologies.
 - ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 - ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 - ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+- [![Webpack](https://img.shields.io/badge/Webpack-2ea44f?style=for-the-badge&logo=webpack&logoColor=light+blue)](https://)
 
 ## Getting Started
 - Install <a href="https://nodejs.org/en/download/" target="_blank">`Node Js`</a> and <a href="https://git-scm.com/downloads" target="_blank">`Git`</a> globally on ur machine.
