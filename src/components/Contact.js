@@ -5,6 +5,21 @@ function ContactForm() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    const data = { name, email, message };
+    try {
+      console.log('Form submission successful:', response.data);
+      // clear form
+      setName('');
+      setEmail('');
+      setMessage('');
+    } catch (error) {
+      console.error('Form submission error:', error);
+      console.log('Error caught');
+    }
+  };
+
   return (
     <body>
 
