@@ -9,7 +9,7 @@ function ContactForm() {
     event.preventDefault();
     const data = { name, email, message };
     try {
-      console.log('Form submission successful:', response.data);
+      console.log('Form submission successful:');
       // clear form
       setName('');
       setEmail('');
