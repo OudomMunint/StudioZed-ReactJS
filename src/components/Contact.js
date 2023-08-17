@@ -64,6 +64,7 @@ function ContactForm() {
             required />
           </div>
           <div data-netlify-recaptcha="true" className="reCaptcha"></div>
+          {/* Submit */}
           <button className="btn btn-danger submit" type="submit" style={{ position: "relative", marginTop: "68px" }}>
             Submit
           </button>
