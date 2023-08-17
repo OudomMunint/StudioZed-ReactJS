@@ -37,7 +37,7 @@ function ContactForm() {
           <span></span>
         </div>
         <div className="title">Get in touch!</div>
-        <form name="contact" method="POST">
+        <form name="contact" method="POST" data-netlify-recaptcha="true">
           <input type="hidden" name="form-name" value="contact" />
 
           {/* Name */}
@@ -63,6 +63,7 @@ function ContactForm() {
             placeholder="Message"
             required />
           </div>
+          <div data-netlify-recaptcha="true"></div>
           <button className="btn btn-danger submit" type="submit" style={{ position: "relative", marginTop: "68px" }}>
             Submit
           </button>
