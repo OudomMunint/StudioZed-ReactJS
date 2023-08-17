@@ -3,8 +3,6 @@
   <a href="https://studiozed.netlify.app/" target="_blank">Visit Studio Zed!</a>
   
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-  
-  ![maintenance-status](https://img.shields.io/badge/maintenance-passively--maintained-yellowgreen.svg)
 </h2>
 
 <br/>
