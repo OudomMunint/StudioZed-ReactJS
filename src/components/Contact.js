@@ -23,7 +23,7 @@ function ContactForm() {
   return (
     <body>
 
-      <form name="contact" netlify="true" netlify-honeypot="bot-field" hidden>
+      <form name="contact" netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" hidden>
       <input type="text" name="name" />
       <input type="email" name="email" />
       <textarea name="message"></textarea>
