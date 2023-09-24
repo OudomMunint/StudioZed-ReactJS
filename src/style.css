@@ -259,7 +259,7 @@ a {
   animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
   animation-duration: 2.1s; /* Change to speed up or slow down */
   animation-iteration-count: infinite; /* Never stop waving :) */
-  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  transform-origin: 100%; /* Animate side to side */
   display: inline-block;
 }
 
