@@ -43,3 +43,6 @@ This project was built using these technologies.
 - Run `npm install`.
 - Run `npm start`.
 - To run an optimized production build use `npm run build`
+
+## Known Issues
+- Security issues found in dependencies, See issue [#26](https://github.com/OudomMunint/StudioZed-ReactJS/issues/26)
