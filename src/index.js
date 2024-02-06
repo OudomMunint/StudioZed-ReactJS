@@ -16,3 +16,17 @@ ReactDOM.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 // Web vitals report generation here
 reportWebVitals(console.log);
+
+// WIP: Enable web vitals report generation only in development mode
+// const isDevelopment = process.env.NODE_ENV === "development";
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>,
+//   document.getElementById("root")
+// );
+
+// if (isDevelopment) {
+//   reportWebVitals(console.log);
+// }
