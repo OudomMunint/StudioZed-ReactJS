@@ -1,8 +1,10 @@
 /* App partial view styles */
 .App {
+  width: 100vw;
   text-align: center;
   z-index: -1;
   position: relative;
+  overflow-x: hidden;
 }
 
 #root {

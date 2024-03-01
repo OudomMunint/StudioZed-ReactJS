@@ -21,8 +21,7 @@ function ContactForm() {
   };
 
   return (
-    <body>
-
+<>
       <form name="contact" netlify="true" netlify-honeypot="bot-field" data-netlify-recaptcha="true" hidden>
       <input type="text" name="name" />
       <input type="email" name="email" />
@@ -43,7 +42,7 @@ function ContactForm() {
           {/* Name */}
           <div className="input-container ic1">
             <label className="form-label" htmlFor="name"></label>
-            <input className="form-control" class="input" type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)}
+            <input className="form-control input" type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)}
               placeholder="Name"
               required />
           </div>
@@ -51,7 +50,7 @@ function ContactForm() {
           {/* Email */}
           <div className="input-container ic2">
             <label className="form-label" htmlFor="email"></label>
-            <input className="form-control" class="input" type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)}
+            <input className="form-control input"  type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)}
               placeholder="Email"
               required/>
           </div>
@@ -59,7 +58,7 @@ function ContactForm() {
           {/* Message */}
           <div className="input-container ic2">
             <label className="form-label" htmlFor="message"></label>
-            <textarea className="form-control" class="input from-textarea" id="message" name="message" value={message} onChange={(e) => setMessage(e.target.value)}
+            <textarea className="form-control input from-textarea"  id="message" name="message" value={message} onChange={(e) => setMessage(e.target.value)}
             placeholder="Message"
             required />
           </div>
@@ -71,7 +70,7 @@ function ContactForm() {
         </form>
       </div>
     </div>
-    </body>
+    </>
   );
 }
 

@@ -28,8 +28,8 @@ html {
 }
 /* Must add this unique class in order for home to take BG */
 .HomeHeroSection{
-  position: relative;
-  height: 100vh;
+  position: relative !important;
+  height: 100% ;
   /* background: linear-gradient( to bottom left, rgba(0, 0, 0, 0.678), rgba(255,192,203, 0.200), rgba(22, 17, 37, 0.863) ); */
   /* background: linear-gradient(to top, #30cfd0 -50%, #330867 100%); */
   background-color: rgb(227, 227, 227);
@@ -303,13 +303,14 @@ a {
 }
 
 .home-section {
-  position: relative;
+  position: relative !important;
   z-index: -1;
   /* background-image: var(--image-gradient)/* , url(./Assets/home-bg.jpg) */;
   background-position: top center;
   background-repeat: no-repeat;
   /* padding-bottom: 30px !important; */
   padding-top: 30px !important;
+  padding-bottom: 7vh;
 }
 
 .home-content {
@@ -458,7 +459,7 @@ a {
 /* --------- */
 .footer {
   background-color: rgb(10, 4, 22);
-  bottom: 0 !important;
+  bottom: 0% !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
 }
@@ -980,4 +981,18 @@ a {
 
 .from-textarea {
  height: 100px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0d0d0d;
 }
