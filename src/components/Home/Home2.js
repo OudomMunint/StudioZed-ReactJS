@@ -23,7 +23,7 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
           
-            <h1 class="home2H1" style={{ fontSize: "2.2em", width: "500px", textAlign: "left"  }}>
+            <h1 className="home2H1" style={{ fontSize: "2.2em", width: "500px", textAlign: "left"  }}>
               A University Of Newcastle <span className="purple"> Student Led </span> Design Studio.
             </h1>
             <p className="home-about-body" style={{width: "500px", textAlign: "left", fontSize: "2.2em"  }}>
