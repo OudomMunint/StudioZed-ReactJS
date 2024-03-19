@@ -19,7 +19,7 @@ jobs:
           node-version: latest
           check-latest: true
       - name: Install dependencies
-        run: npm install
+        run: npm ci
       - name: Run ESLint
         run: npx eslint --no-error-on-unmatched-pattern .
       - name: Generate build
@@ -38,4 +38,4 @@ jobs:
         uses: ncipollo/release-action@v1.14.0
         with:
           artifacts: "react-github-actions-build"
-          tag: v1.5.4
+          tag: v1.5.4.1
