@@ -1,24 +1,28 @@
 /* Main Styling sheet */
 body {
   z-index: -1;
-    position: relative;
+  position: relative;
 }
 :root {
-  --light: #7BFFB5;
-  --dark: #0E33FF;
+  --light: #7bffb5;
+  --dark: #0e33ff;
 }
-:root { font-family: 'Inter', sans-serif !important; }
+:root {
+  font-family: "Inter", sans-serif !important;
+}
 @supports (font-variation-settings: normal) {
-:root { font-family: 'Inter var', sans-serif !important; }
+  :root {
+    font-family: "Inter var", sans-serif !important;
+  }
 }
 * {
   font-family: Inter var !important;
 }
 .row {
-  margin-right: 0px!important;
+  margin-right: 0px !important;
 }
 html {
-/* This only changes the bg of about, project */
+  /* This only changes the bg of about, project */
   /* --section-background-color: linear-gradient(to top, #30cfd0 -90%, #330867 100%); */
   /* --section-background-color: black !important; */
 
@@ -27,9 +31,10 @@ html {
   --imp-text-color: #9700dd;
 }
 /* Must add this unique class in order for home to take BG */
-.HomeHeroSection{
+.HomeHeroSection {
   position: relative !important;
-  height: 100% ;
+  height: 100%;
+  margin-bottom: 27px;
   /* background: linear-gradient( to bottom left, rgba(0, 0, 0, 0.678), rgba(255,192,203, 0.200), rgba(22, 17, 37, 0.863) ); */
   /* background: linear-gradient(to top, #30cfd0 -50%, #330867 100%); */
   background-color: rgb(227, 227, 227);
@@ -41,7 +46,7 @@ html {
 }
 
 @media only screen and (max-width: 990px) {
-  .home-about-body{
+  .home-about-body {
     width: auto !important;
   }
   .home2H1 {
@@ -71,7 +76,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #6B62FF;
+  background-color: #6b62ff;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -305,7 +310,7 @@ a {
 .home-section {
   position: relative !important;
   z-index: -1;
-  /* background-image: var(--image-gradient)/* , url(./Assets/home-bg.jpg) */;
+  /* background-image: var(--image-gradient)/* , url(./Assets/home-bg.jpg) */
   background-position: top center;
   background-repeat: no-repeat;
   /* padding-bottom: 30px !important; */
@@ -606,15 +611,15 @@ a {
 /* --------- */
 
 @media (max-width: 767px) {
-  #carlContainer{
-      background-color: white !important;
-      border-radius: 30px !important;
-      padding: 50px;
-      box-shadow: 2.5px 2.5px 2.5px grey;
-      /* width: 100% !important; */
+  #carlContainer {
+    background-color: white !important;
+    border-radius: 30px !important;
+    padding: 50px;
+    box-shadow: 2.5px 2.5px 2.5px grey;
+    /* width: 100% !important; */
   }
-  
-  #simoneContainer{
+
+  #simoneContainer {
     background-color: white !important;
     border-radius: 30px !important;
     padding: 50px;
@@ -623,11 +628,11 @@ a {
   }
 
   /* Reusable Spacer */
-  #spacer{
-  height: 20px;
-}
+  #spacer {
+    height: 20px;
+  }
 
-  .img-fluid{
+  .img-fluid {
     min-height: 1px !important;
   }
 
@@ -638,10 +643,10 @@ a {
 }
 
 @media (min-width: 768px) {
-.col-md-42 {
+  .col-md-42 {
     flex: 0 0 auto;
     width: 50% !important;
-}
+  }
 }
 
 .about-section {
@@ -699,92 +704,6 @@ a {
   .about-img {
     padding-top: 0 !important;
   }
-}
-/* --------- */
-/* Resume */
-/* --------- */
-
-.resume-section {
-  position: relative !important;
-  padding-top: 110px !important;
-  padding-bottom: 30px !important;
-  background-image: var(--section-background-color) !important;
-  color: white !important;
-}
-
-.resume {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  justify-content: center;
-}
-
-.resume-left {
-  padding-right: 80px !important;
-}
-
-.resume-right {
-  padding-left: 80px !important;
-}
-
-@media (max-width: 767px) {
-  .resume-left {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-
-  .resume-right {
-    padding-right: 15px !important;
-    padding-left: 15px !important;
-  }
-}
-.resume .resume-title {
-  font-size: 2em;
-  font-weight: 700;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-
-.resume .resume-item {
-  padding: 0 0 10px 25px;
-  margin-top: -2px;
-  border-left: 2px solid #8a49a8;
-  position: relative;
-}
-
-.resume .resume-item .resume-title {
-  line-height: 18px;
-  font-size: 0.9em;
-  background: #5234795d;
-  padding: 8px 15px;
-  display: inline-block;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.resume .resume-item ul {
-  padding-left: 20px;
-  text-align: justify;
-}
-
-.resume .resume-item ul li {
-  padding-bottom: 10px;
-  list-style: none;
-}
-
-.resume .resume-item:last-child {
-  padding-bottom: 0;
-}
-
-.resume .resume-item::before {
-  content: "";
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  border-radius: 50px;
-  left: -9px;
-  top: 0;
-  background: #fff;
-  border: 2px solid #8a49a8;
 }
 
 .like-item {
@@ -853,7 +772,8 @@ a {
   justify-content: center;
   /* padding-top: 50px;
   padding-left: 15px; */
-  margin: 170px;
+  margin-bottom: 118px;
+  margin-top: 170px;
   top: 0%;
   left: 0%;
   position: relative;
@@ -980,7 +900,7 @@ a {
 }
 
 .from-textarea {
- height: 100px;
+  height: 100px;
 }
 
 ::-webkit-scrollbar {
