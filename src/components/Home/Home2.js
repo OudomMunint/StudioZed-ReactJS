@@ -34,7 +34,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              We work on large scale projects from &nbsp;
+              We work on large scale projects from&nbsp;
               <i>
                 <b className="purple">llustration and graphic design </b> through to{" "}
                 <b className="purple">
@@ -43,14 +43,14 @@ function Home2() {
               </i>
               <br />
               <br />
-              Feel free to get in touch for a <b className="purple">obligation free consultation.</b> And everything from
+              Feel free to get in touch for an <b className="purple">obligation free consultation.</b> And everything from
               <i>
                 <b className="purple">
                   {" "}
                   Aye!
                 </b>
               </i>
-              &nbsp; to
+              &nbsp;to
               <i>
                 <b className="purple"> Zed!</b>
               </i>
