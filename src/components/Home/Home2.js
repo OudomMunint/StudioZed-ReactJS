@@ -1,20 +1,21 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Student from "../../Assets/home-main.svg"
 import Tilt from "react-parallax-tilt";
 import carl from "../../Assets/carl.svg"
 import simone from "../../Assets/simone.svg"
+
 import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-  AiFillDribbbleCircle,
-  AiFillLinkedin,
+  // AiFillGithub,
+  // AiOutlineTwitter,
+  // AiFillInstagram,
+  // AiFillDribbbleCircle,
+  // AiFillLinkedin,
   AiOutlineLinkedin,
   AiOutlineInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+// import { FaLinkedinIn } from "react-icons/fa";
+// import myImg from "../../Assets/avatar.svg";
 
 function Home2() {
   return (
@@ -125,7 +126,7 @@ function Home2() {
         </h1>
             <p className="home-about-body" style={{width: "500px", textAlign: "left", fontSize: "2.2em"}}>
               <br />
-              <br />Meet <b><a target="_blank" href="https://www.linkedin.com/in/carl-morgan-7066863b/" style={{textDecoration:"none", color:"white"}} className="purple">Carl, </a></b>
+              <br />Meet <b><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/carl-morgan-7066863b/" style={{textDecoration:"none", color:"white"}} className="purple">Carl, </a></b>
               <i>
               Associate Lecturer at University of Newcastle & Co-Founder of Zookraft and Studio Zed.
               </i>
@@ -154,7 +155,7 @@ function Home2() {
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={carl} className="img-fluid" alt="avatar" style={{ minHeight: "450px"}}/>
-              <a target="_blank" href="https://www.linkedin.com/in/carl-morgan-7066863b/"><figcaption style={{paddingRight:"40px", color:"black", textDecoration:"none"}}>@Carl Morgan</figcaption></a>
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/carl-morgan-7066863b/"><figcaption style={{paddingRight:"40px", color:"black", textDecoration:"none"}}>@Carl Morgan</figcaption></a>
             </Tilt>
           </Col>
         </Row>
@@ -168,7 +169,7 @@ function Home2() {
           <Col md={8} className="home-about-description2">
             <p className="home-about-body" style={{width: "500px", textAlign: "left", fontSize: "2.2em"}}>
               <br />
-              <br />Meet <b><a target="_blank" href="https://www.linkedin.com/in/simoneo/" style={{textDecoration:"none", color:"white"}} className="purple">Simone, </a></b>
+              <br />Meet <b><a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/simoneo/" style={{textDecoration:"none", color:"white"}} className="purple">Simone, </a></b>
               Deputy Head of Research Training, School of Humanities, Creative Industries, Social Sciences at University of Newcastle and founder at Studio Zed.
               {/* <br />
               {/* <br /> */}
@@ -195,7 +196,7 @@ function Home2() {
           <Col md={4} className="myAvtar2">
             <Tilt>
               <img src={simone} className="img-fluid" alt="avatar" style={{ minHeight: "450px"}}/>
-              <a target="_blank" href="https://www.linkedin.com/in/simoneo/"><figcaption style={{color:"black", textDecoration:"none"}}>@Simone O'Callaghan</figcaption></a>
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/simoneo/"><figcaption style={{color:"black", textDecoration:"none"}}>@Simone O'Callaghan</figcaption></a>
             </Tilt>
           </Col>
         </Row>

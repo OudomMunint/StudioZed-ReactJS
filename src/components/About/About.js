@@ -1,23 +1,24 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
-import Github from "./Github";
 import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
-import Toolstack from "./Toolstack";
-
 import Home2 from "../Home/Home2"
-import myImg from "../../Assets/avatar.svg";
-import Student from "../../Assets/home-main.svg"
-import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-  AiFillDribbbleCircle,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import { Container } from "react-bootstrap";
+
+// import { Row, Col } from "react-bootstrap";
+// import Github from "./Github";
+// import Aboutcard from "./AboutCard";
+// import laptopImg from "../../Assets/about.png";
+// import Toolstack from "./Toolstack";
+// import myImg from "../../Assets/avatar.svg";
+// import Student from "../../Assets/home-main.svg"
+// import Tilt from "react-parallax-tilt";
+// import {
+//   AiFillGithub,
+//   AiOutlineTwitter,
+//   AiFillInstagram,
+//   AiFillDribbbleCircle,
+// } from "react-icons/ai";
+// import { FaLinkedinIn } from "react-icons/fa";
 
 function About() {
   return (
