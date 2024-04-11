@@ -42,7 +42,13 @@ This project was built using these technologies.
 - `CD` into the project's directory.
 - Run `npm install`.
 - Run `npm start`.
-- To run an optimized production build use `npm run build`
+
+## Running an optimized build
+- Run `npm install`.
+- Run `npm run build` to create an optimized build.
+- Run `install -g serve` to install serve globally.
+- Run `serve -s build` to serve the optimized build.
+- From the terminal, you can see the local address & network address to view the build, copy and paste it in your browser.
 
 ## Known Issues
 - Security issues found in dependencies, See issue [#26](https://github.com/OudomMunint/StudioZed-ReactJS/issues/26)
