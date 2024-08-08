@@ -51,4 +51,4 @@ This project was built using these technologies.
 - From the terminal, you can see the local address & network address to view the build, copy and paste it in your browser.
 
 ## Known Issues
-- Security issues found in dependencies, See issue [#26](https://github.com/OudomMunint/StudioZed-ReactJS/issues/26)
+- Security issues found in dependencies but are low risk to this project, See dependabot alert [#26](https://github.com/OudomMunint/StudioZed-ReactJS/security/dependabot/26) and alert [#12](https://github.com/OudomMunint/StudioZed-ReactJS/security/dependabot/12)
