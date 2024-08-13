@@ -17,7 +17,7 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home2 from "./components/Home/Home2";
+//import Home2 from "./components/Home/Home2";
 
 function App() {
   const [load, upadateLoad] = useState(true);

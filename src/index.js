@@ -11,7 +11,6 @@ ReactDOM.render(
   document.getElementById("root")
 );
 
-// WIP: Enable web vitals report generation only in development mode
 const isDevelopment = process.env.NODE_ENV === "development";
 
 ReactDOM.render(
@@ -26,5 +25,5 @@ if (isDevelopment) {
 }
 
 else {
-  console.log("Web vitals report generation is disabled in production mode");
+  console.log("Web vitals report generation is disabled in production");
 }
