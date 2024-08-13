@@ -1,18 +1,18 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/about.png";
+//import homeLogo from "../../Assets/about.png";
 import Particle from "../Particle";
-import Home2 from "./Home2";
+//import Home2 from "./Home2";
 import Type from "./Type";
 import {ReactComponent as Design} from "../../Assets/design.svg";
 
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-  AiFillDribbbleCircle,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+// import {
+//   AiFillGithub,
+//   AiOutlineTwitter,
+//   AiFillInstagram,
+//   AiFillDribbbleCircle,
+// } from "react-icons/ai";
+// import { FaLinkedinIn } from "react-icons/fa";
 
 function Home() {
   return (

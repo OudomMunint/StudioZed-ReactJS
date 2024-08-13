@@ -1,6 +1,6 @@
 import React from "react";
 import Particle from "../Particle";
-import Techstack from "./Techstack";
+import Clients from "./Clients";
 import Home2 from "../Home/Home2"
 import { Container } from "react-bootstrap";
 
@@ -54,7 +54,7 @@ function About() {
         </h1>
         <p>(This we will change to the logos of those we worked with)</p>
 
-        <Techstack />
+        <Clients />
 
         {/* <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
