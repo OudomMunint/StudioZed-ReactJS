@@ -73,7 +73,10 @@ function ContactForm() {
               <label className="form-label" htmlFor="email"></label>
               <input className="form-control input" type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)}
                 placeholder="Email"
-                required />
+                required
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                title="Please enter a valid email address"
+              />
             </div>
 
             {/* Message */}
