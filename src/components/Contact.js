@@ -1,12 +1,11 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 
 function ContactForm() {
   const isDevelopment = process.env.NODE_ENV === "development";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-
-  const handleSubmit = async (event) => {
+  const handleSubmit = useCallback(async (event) => {
     event.preventDefault();
     let data = { name, email, message };
     try {
@@ -14,31 +13,33 @@ function ContactForm() {
       setName('');
       setEmail('');
       setMessage('');
-      data = { name: "testUser1", email: "test@test.com", message: "Hello, this is a test message." };
-      console.log('Form submission successful:');
-      console.log(data);
+      if (isDevelopment) {
+        data = {
+          name: "testUser1",
+          email: "test@test.com",
+          message: "Hello, this is a test message."
+        };
+      }
+      console.log('Form submission successful:', data);
     } catch (error) {
       console.error('Form submission error:', error);
       console.log('Error caught');
     }
-  };
+  }, [name, email, message, isDevelopment]);
 
-  if (isDevelopment) {
-    try {
-      document.getElementsByClassName("submit").addEventListener("click", handleSubmit);
+  useEffect(() => {
+    if (isDevelopment) {
+      const button = document.querySelector(".submit");
+      if (button) {
+        button.addEventListener("click", handleSubmit);
+      }
+      return () => {
+        if (button) {
+          button.removeEventListener("click", handleSubmit);
+        }
+      };
     }
-    catch (error) {
-      console.error('Error:', error);
-    }
-  }
-  else {
-    try {
-      document.getElementsByClassName("submit").removeEventListener("click", handleSubmit);
-    }
-    catch (error) {
-      console.error('Error:', error);
-    }
-  }
+  }, [isDevelopment, handleSubmit]);
 
   return (
     <>
@@ -84,7 +85,7 @@ function ContactForm() {
             </div>
             <div data-netlify-recaptcha="true" className="reCaptcha"></div>
             {/* Submit */}
-            <button className="btn btn-danger submit" type="submit" style={{ position: "relative", marginTop: "68px" }}>
+            <button title="submit" className="btn btn-danger submit" type="submit" style={{ position: "relative", marginTop: "68px" }}>
               Submit
             </button>
           </form>
