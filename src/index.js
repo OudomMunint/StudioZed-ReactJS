@@ -29,6 +29,11 @@ const isDevelopment = process.env.NODE_ENV === "development";
 // }
 
 // Web Vitals
+if (isDevelopment) {
+  reportWebVitals(console.log);
+}
+else {
   reportWebVitals(metric => {
     console.log('Web Vitals metric:', metric);
   });
+}
