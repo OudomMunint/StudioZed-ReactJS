@@ -47,7 +47,7 @@ test('Test web vitals', () => {
 });
 
 // Test if about page is rendered
-test('Test if about page is rendered', () => {
+test('Test AboutPage', () => {
   render(<About />);
   const aboutPage = About();
   if (aboutPage != null) {

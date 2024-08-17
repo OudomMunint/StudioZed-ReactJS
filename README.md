@@ -1,5 +1,6 @@
 <h2 align="center">
-  Studio Zed project made with React Js<br/>
+  A Studio Zed project made with React Js<br/>
+  Feel free to use it as a template for your own projects!<br/>
   <a href="https://studiozed.netlify.app/" target="_blank">Visit Studio Zed!</a>
   
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -50,5 +51,21 @@ This project was built using these technologies.
 - Run `serve -s build` to serve the optimized build.
 - From the terminal, you can see the local address & network address to view the build, copy and paste it in your browser.
 
+## Running tests
+- Run `npm run test` to run tests.
+- There are 1 test suite and 5 tests in total.
+- Testing setup can be found in `setupTests.js` & all tests are in `App.test.js`.
+- Tests are written using Jest & React Testing Library.
+- All 5 Tests are currently integrated into the `CI/CD` pipeline.
+- Example of when all tests pass:
+```bash
+ PASS  src/App.test.js
+  ✓ Test home page content (50 ms)
+  ✓ Find contact form (69 ms)
+  ✓ Find form submit button (11 ms)
+  ✓ Test web vitals (1 ms)
+  ✓ Test AboutPage (15 ms)
+  ```
+
 ## Known Issues
-- Security issues found in dependencies but are low risk to this project, See dependabot alert [#26](https://github.com/OudomMunint/StudioZed-ReactJS/security/dependabot/26) and alert [#12](https://github.com/OudomMunint/StudioZed-ReactJS/security/dependabot/12)
+- Security issues found in dependencies but are low risk to this project, See dependabot alert [#26](https://github.com/OudomMunint/StudioZed-ReactJS/security/dependabot/26),  alert [#12](https://github.com/OudomMunint/StudioZed-ReactJS/security/dependabot/12) and [#27](https://github.com/OudomMunint/StudioZed-ReactJS/security/dependabot/27).
