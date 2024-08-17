@@ -4,6 +4,7 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+// Main component
 ReactDOM.render(
   <React.StrictMode>
     <App />
@@ -13,17 +14,21 @@ ReactDOM.render(
 
 const isDevelopment = process.env.NODE_ENV === "development";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+// Web Vitals
+// TODO: Send metrics to an analytics endpoint
+// if (isDevelopment) {
+//   reportWebVitals(console.log);
+// } else {
+//   reportWebVitals(metric => {
+//     fetch('/api/analytics', {
+//       method: 'POST',
+//       body: JSON.stringify(metric),
+//       headers: { 'Content-Type': 'application/json' }
+//     }).catch(err => console.error('Error reporting Web Vitals:', err));
+//   });
+// }
 
-if (isDevelopment) {
-  reportWebVitals(console.log);
-}
-
-else {
-  console.log("Web vitals report generation is disabled in production");
-}
+// Web Vitals
+  reportWebVitals(metric => {
+    console.log('Web Vitals metric:', metric);
+  });
