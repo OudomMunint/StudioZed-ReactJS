@@ -13,21 +13,28 @@ jobs:
     steps:
       - name: Checkout PROD
         uses: actions/checkout@v4
+
       - name: Install Node.js latest
         uses: actions/setup-node@v4
         with:
           node-version: latest
           check-latest: true
+
       - name: Install dependencies
         run: npm ci
+
       - name: Run ESLint
-        run: npx eslint --no-error-on-unmatched-pattern .
+        run: npx eslint --no-error-on-unmatched-pattern.
+
+      - name: Run all tests
+        run: npm run test
+
       - name: Generate build
         env:
           CI: false
         run: npm run build
 
-      # Share artifact inside workflow
+      # Share artifact
       - name: Share artifact inside workflow
         uses: actions/upload-artifact@v4
         with:
@@ -38,4 +45,4 @@ jobs:
         uses: ncipollo/release-action@v1.14.0
         with:
           artifacts: "react-github-actions-build"
-          tag: v1.5.4.7
+          tag: v1.5.5
