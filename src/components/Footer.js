@@ -14,17 +14,19 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          {/* <h3>Powered By ReactJs, NodeJs & ExpressJs</h3> */}
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} Studio Zed</h3>
+          <h3>Copyright © {year} Studio Zed | Powered by ReactJs, NodeJs & Netlify</h3>
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="/#"
+                href="https://github.com/OudomMunint/StudioZed-ReactJS"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="GitHub"
               >
                 <AiFillGithub />
               </a>
@@ -35,6 +37,10 @@ function Footer() {
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Twitter - Coming Soon"
+                onClick={(e) => e.preventDefault()}
               >
                 <AiOutlineTwitter />
               </a>
@@ -45,6 +51,10 @@ function Footer() {
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="LinkedIn - Coming Soon"
+                onClick={(e) => e.preventDefault()}
               >
                 <FaLinkedinIn />
               </a>
@@ -55,56 +65,16 @@ function Footer() {
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
+                data-toggle="tooltip"
+                data-placement="top"
+                title="Instagram - Coming Soon"
+                onClick={(e) => e.preventDefault()}
               >
                 <AiFillInstagram />
               </a>
             </li>
           </ul>
         </Col>
-        {/* <Col md="4" className="footer-body">
-          <ul className="footer-icons">
-            <li className="social-icons">
-              <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <FaLinkedinIn />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-            </li>
-          </ul>
-        </Col> */}
       </Row>
     </Container>
   );
