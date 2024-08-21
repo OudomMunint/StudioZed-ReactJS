@@ -33,8 +33,8 @@ html {
 /* Must add this unique class in order for home to take BG */
 .HomeHeroSection {
   position: relative !important;
-  height: 100%;
-  margin-bottom: 27px;
+  height: 90vh;
+  /* margin-bottom: 27px; */
   /* background: linear-gradient( to bottom left, rgba(0, 0, 0, 0.678), rgba(255,192,203, 0.200), rgba(22, 17, 37, 0.863) ); */
   /* background: linear-gradient(to top, #30cfd0 -50%, #330867 100%); */
   background-color: rgb(227, 227, 227);
@@ -467,7 +467,7 @@ a {
   bottom: 0% !important;
   padding-top: 10px !important;
   padding-bottom: 8px !important ;
-  margin-top: 113px;
+  margin-top: 112px;
 }
 .footer-copywright {
   text-align: center !important;
