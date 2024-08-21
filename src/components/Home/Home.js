@@ -5,6 +5,7 @@ import Particle from "../Particle";
 //import Home2 from "./Home2";
 import Type from "./Type";
 import {ReactComponent as Design} from "../../Assets/design.svg";
+import {ReactComponent as HomeLogo} from "../../Assets/paintbrush.svg";
 
 // import {
 //   AiFillGithub,
@@ -24,9 +25,11 @@ function Home() {
             <Col md={7} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
                 Welcome!{" "}
-                <span className="wave" role="img" aria-labelledby="wave" style={{fontSize:"90px"}}>
-                🖋️
-                </span>
+                {/* <span className="wave" role="img" aria-labelledby="wave" style={{fontSize:"90px"}}>
+                🖌️
+                <HomeLogo></HomeLogo>
+                </span> */}
+                <HomeLogo className="wave" role="img" aria-label="wave" style={{width:"80px", height:"80px", marginLeft:"30px"}}/>
               </h1>
 
               <h1 className="heading-name">
