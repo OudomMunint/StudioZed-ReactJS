@@ -21,10 +21,10 @@ function NavBar() {
   const [navColour, updateNavbar] = useState(false);
 
   function scrollHandler() {
-    if (window.scrollY >= -1) {
+    if (window.scrollY >= 1) {
       updateNavbar(true);
     } else {
-      updateNavbar(true);
+      updateNavbar(false);
     }
   }
 
