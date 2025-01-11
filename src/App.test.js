@@ -30,6 +30,13 @@ test('Find contact form', async () => {
   expect(formFieldMessage).toBeInTheDocument();
 });
 
+// Test Alert message
+test('Find alert message', () => {
+  render(<ContactForm />);
+  const alertMessage = screen.getByText(/This website serves as a showcase of my development work/i);
+  expect(alertMessage).toBeInTheDocument();
+});
+
 // Test form submit button
 test('Find form submit button', () => {
   render(<ContactForm />);

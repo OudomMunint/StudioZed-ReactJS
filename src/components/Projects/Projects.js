@@ -36,8 +36,8 @@ function Projects() {
               isBlog={false}
               title="Public Art Workers website and branding"
               description="A website, Logo and branding for a newly formed company called Public art workers."
-              //ghLink="https://github.com/soumyajit4419/Chatify"
-              //demoLink="https://chatify-49.web.app/"
+              //ghLink="https://github.com/"
+              demoLink="https://www.publicartworkers.com/"
             />
           </Col>
 
@@ -46,9 +46,7 @@ function Projects() {
               imgPath={JH}
               isBlog={false}
               title="John Hunter Health anniversary book"
-              description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
-              //ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              //demoLink="https://blogs.soumya-jit.tech/"
+              //description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
             />
           </Col>
 
@@ -57,9 +55,7 @@ function Projects() {
               imgPath={LocalConnect}
               isBlog={false}
               title="Local Connections restuarant"
-              description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
-              //ghLink="https://github.com/soumyajit4419/Editor.io"
-              //demoLink="https://editor.soumya-jit.tech/"              
+              //description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"         
             />
           </Col>
 
@@ -68,9 +64,7 @@ function Projects() {
               imgPath={newcastleArt}
               isBlog={false}
               title="Newcastle art gallery"
-              description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
-              //ghLink="https://github.com/soumyajit4419/Plant_AI"
-              //demoLink="https://plant49-ai.herokuapp.com/"
+              //description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
             />
           </Col>
 
@@ -79,9 +73,7 @@ function Projects() {
               imgPath={wanersbay}
               isBlog={false}
               title="Warners Bay kids book"
-              description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
-              //ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              //description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
             />
           </Col>
 
@@ -90,9 +82,7 @@ function Projects() {
               imgPath={water}
               isBlog={false}
               title="Water conservation kids book"
-              description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
-              //ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              //description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
             />
           </Col>
 
@@ -101,9 +91,7 @@ function Projects() {
               imgPath={tina}
               isBlog={false}
               title="This Is Not Art Program"
-              description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
-              //ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              //description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
             />
           </Col>
 
@@ -112,9 +100,7 @@ function Projects() {
               imgPath={noWorries}
               isBlog={false}
               title="No worries rebranding and website"
-              description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
-              //ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              //description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
             />
           </Col>
 
@@ -123,9 +109,7 @@ function Projects() {
               imgPath={air}
               isBlog={false}
               title="Art in Recovery rebrading and commemorative book"
-              description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
-              //ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              //description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
             />
           </Col>
 
@@ -135,8 +119,6 @@ function Projects() {
               isBlog={false}
               title="Head 2 Art website and branding project"
               description="This project is about [Insert name] it is for [ inset ] by [inset] this project involved [ insert]"
-              //ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col> */}
         </Row>
