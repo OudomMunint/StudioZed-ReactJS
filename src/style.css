@@ -45,6 +45,10 @@ html {
   z-index: -1;
 }
 
+.dark-mode .HomeHeroSection {
+  background-color: rgb(10, 4, 22);
+}
+
 @media only screen and (max-width: 990px) {
   .home-about-body {
     width: auto !important;
@@ -212,9 +216,13 @@ a {
 }
 
 .navbar-nav .nav-link {
-  color: rgb(0, 0, 0) !important;
+  color: rgb(0, 0, 0);
   padding-right: 1rem !important;
   padding-left: 1rem !important;
+}
+
+.dark-mode .navbar-nav .nav-link {
+  color: white;
 }
 
 .nav-link {
@@ -336,6 +344,14 @@ a {
 
 .main-name {
   color: #cd5ff8;
+}
+
+.dark-mode .heading {
+  color: white;
+}
+
+.dark-mode .heading-name {
+  color: white;
 }
 
 .Typewriter__wrapper {

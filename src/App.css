@@ -7,6 +7,10 @@
   overflow-x: hidden;
 }
 
+.dark-mode .App {
+  background-color: rgb(10, 4, 22);
+}
+
 #root {
   z-index: -1 !important;
   position: relative !important;
