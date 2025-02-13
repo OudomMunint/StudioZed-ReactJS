@@ -30,6 +30,15 @@ html {
 
   --imp-text-color: #9700dd;
 }
+
+.dark-mode h1 {
+  color: white;
+}
+
+.dark-mode p {
+  color: white;
+}
+
 /* Must add this unique class in order for home to take BG */
 .HomeHeroSection {
   position: relative !important;
@@ -60,6 +69,10 @@ html {
 
 .purple {
   color: var(--imp-text-color) !important;
+}
+
+.dark-mode .purple {
+  color: #cd5ff8 !important;
 }
 
 .white {
@@ -617,7 +630,7 @@ a {
   box-shadow: none !important;
 }
 .project-heading {
-  color: rgb(0, 0, 0) !important;
+  color: rgb(0, 0, 0);
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -676,8 +689,12 @@ a {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-color: rgb(227, 227, 227) !important;
+  background-color: rgb(227, 227, 227);
   color: rgb(0, 0, 0) !important;
+}
+
+.dark-mode .about-section {
+  background-color: rgb(10, 4, 22);
 }
 
 .tech-icons {
@@ -693,6 +710,14 @@ a {
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+}
+
+.fa-icon {
+  color: black;
+}
+
+.dark-mode .fa-icon {
+  color: white;
 }
 
 @media (max-width: 767px) {
