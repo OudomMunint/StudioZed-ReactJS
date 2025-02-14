@@ -85,7 +85,7 @@ function Home2() {
               {/* <br /> */}
               He is also a very talented &nbsp;
               <i>
-                <b className="purple">llustrator</b> and{" "}
+                <b className="purple">Illustrator</b> and{" "}
                 <b className="purple">Designer.</b> With many years of Industry experience.
               </i>
               <br />
