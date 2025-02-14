@@ -98,7 +98,7 @@ function ContactForm() {
                         value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Message" required/>
             </div>
             <div data-netlify-recaptcha="true" className="reCaptcha"></div>
-            <button title="submit" className="btn btn-danger submit" type="submit" style={{ position: "relative", marginTop: "68px" }}>
+            <button title="submit" className="btn-submit submit" type="submit" style={{ position: "relative", marginTop: "68px" }}>
               Submit
             </button>
           </form>
