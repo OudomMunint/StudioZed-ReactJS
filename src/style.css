@@ -242,9 +242,9 @@ a {
   color: white;
 }
 
-.nav-link {
+/* .nav-link {
   padding: 0.8rem 1rem !important;
-}
+} */
 
 @media (max-width: 767px) {
   .nav-link {
@@ -547,6 +547,10 @@ a {
   background-color: rgb(227, 227, 227);
 }
 
+.dark-mode .project-section {
+  background-color: rgb(10, 4, 22);
+}
+
 .project-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -569,6 +573,11 @@ a {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3) !important;
+}
+
+.dark-mode .project-card-view {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
 }
 
 .blog-card {
@@ -864,11 +873,27 @@ a {
   padding: 20px;
 }
 
+.alert-text {
+  color: black;
+}
+
+.dark-mode .alert-text {
+  color: black;
+}
+
+.dark-mode .form {
+  background-color: rgba(255, 255, 255, 0.1)
+}
+
 .title {
   color: #08d;
   font-size: 36px;
   font-weight: 600;
   margin-top: 30px;
+}
+
+.dark-mode .title {
+  color: white;
 }
 
 .subtitle {
@@ -1007,6 +1032,7 @@ textarea {
   flex-direction: row;
   align-items: center;
   gap: 4px;
+  justify-content: center;
 }
 
 .toggle-theme-wrapper span {
@@ -1060,4 +1086,10 @@ input:checked + .slider {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
