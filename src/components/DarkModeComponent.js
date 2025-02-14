@@ -30,6 +30,7 @@ const DarkModeComponent = () => {
       <span>☀️</span>
       <label className="toggle-theme" htmlFor="checkbox">
         <input
+          aria-label="Dark Mode"
           type="checkbox"
           id="checkbox"
           onChange={toggleTheme}
