@@ -219,6 +219,10 @@ button:focus {
   color: rgb(250, 250, 250) !important;
 }
 
+.blur {
+  backdrop-filter: blur(15px) !important;
+}
+
 a {
   text-decoration: none !important;
 }

@@ -52,7 +52,7 @@ function NavBar() {
           <span></span>
           <span></span>
         </Navbar.Toggle>
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse id="responsive-navbar-nav" className="blur">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
