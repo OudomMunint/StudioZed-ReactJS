@@ -62,3 +62,10 @@ test('Test AboutPage', () => {
   }
   expect(aboutPage).not.toBeNull();
 });
+
+// Test if dark mode toggle is rendered
+test('Test DarkModeToggle', () => {
+  render(<App />);
+  const darkModeToggle = screen.getByRole('checkbox', { name: /Dark Mode/i });
+  expect(darkModeToggle).toBeInTheDocument();
+});
