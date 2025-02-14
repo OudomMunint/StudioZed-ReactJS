@@ -10,7 +10,7 @@ const hideAlert = () => {
 const AlertComponent = ({ message, animateAlert }) => {
   return (
     <div className={`alert-container ${animateAlert ? "" : "hidden"}`} id="alert">
-      <p style={{ margin: "0" }}>
+      <p className="alert-text" style={{ margin: "0" }}>
         {message}
       </p>
       <button

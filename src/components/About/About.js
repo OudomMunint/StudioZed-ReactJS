@@ -30,7 +30,6 @@ function About() {
         <h1 className="project-heading">
           Who we <strong className="purple">work with </strong>
         </h1>
-        <p>(This we will change to the logos of those we worked with)</p>
 
         <Clients />
 

@@ -30,6 +30,15 @@ html {
 
   --imp-text-color: #9700dd;
 }
+
+.dark-mode h1 {
+  color: white;
+}
+
+.dark-mode p {
+  color: white;
+}
+
 /* Must add this unique class in order for home to take BG */
 .HomeHeroSection {
   position: relative !important;
@@ -45,6 +54,10 @@ html {
   z-index: -1;
 }
 
+.dark-mode .HomeHeroSection {
+  background-color: rgb(10, 4, 22);
+}
+
 @media only screen and (max-width: 990px) {
   .home-about-body {
     width: auto !important;
@@ -56,6 +69,10 @@ html {
 
 .purple {
   color: var(--imp-text-color) !important;
+}
+
+.dark-mode .purple {
+  color: #cd5ff8 !important;
 }
 
 .white {
@@ -202,6 +219,10 @@ button:focus {
   color: rgb(250, 250, 250) !important;
 }
 
+.blur {
+  backdrop-filter: blur(15px) !important;
+}
+
 a {
   text-decoration: none !important;
 }
@@ -212,14 +233,18 @@ a {
 }
 
 .navbar-nav .nav-link {
-  color: rgb(0, 0, 0) !important;
+  color: rgb(0, 0, 0);
   padding-right: 1rem !important;
   padding-left: 1rem !important;
 }
 
-.nav-link {
-  padding: 0.8rem 1rem !important;
+.dark-mode .navbar-nav .nav-link {
+  color: white;
 }
+
+/* .nav-link {
+  padding: 0.8rem 1rem !important;
+} */
 
 @media (max-width: 767px) {
   .nav-link {
@@ -336,6 +361,14 @@ a {
 
 .main-name {
   color: #cd5ff8;
+}
+
+.dark-mode .heading {
+  color: white;
+}
+
+.dark-mode .heading-name {
+  color: white;
 }
 
 .Typewriter__wrapper {
@@ -514,6 +547,10 @@ a {
   background-color: rgb(227, 227, 227);
 }
 
+.dark-mode .project-section {
+  background-color: rgb(10, 4, 22);
+}
+
 .project-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
@@ -536,6 +573,11 @@ a {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 1px 1px 1px rgba(0, 0, 0, 0.3) !important;
+}
+
+.dark-mode .project-card-view {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
 }
 
 .blog-card {
@@ -601,7 +643,7 @@ a {
   box-shadow: none !important;
 }
 .project-heading {
-  color: rgb(0, 0, 0) !important;
+  color: rgb(0, 0, 0);
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -660,8 +702,12 @@ a {
   position: relative !important;
   padding-top: 150px !important;
   padding-bottom: 30px !important;
-  background-color: rgb(227, 227, 227) !important;
+  background-color: rgb(227, 227, 227);
   color: rgb(0, 0, 0) !important;
+}
+
+.dark-mode .about-section {
+  background-color: rgb(10, 4, 22);
 }
 
 .tech-icons {
@@ -677,6 +723,14 @@ a {
   box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+}
+
+.fa-icon {
+  color: black;
+}
+
+.dark-mode .fa-icon {
+  color: white;
 }
 
 @media (max-width: 767px) {
@@ -819,11 +873,27 @@ a {
   padding: 20px;
 }
 
+.alert-text {
+  color: black;
+}
+
+.dark-mode .alert-text {
+  color: black;
+}
+
+.dark-mode .form {
+  background-color: rgba(255, 255, 255, 0.1)
+}
+
 .title {
   color: #08d;
   font-size: 36px;
   font-weight: 600;
   margin-top: 30px;
+}
+
+.dark-mode .title {
+  color: white;
 }
 
 .subtitle {
@@ -955,4 +1025,71 @@ a {
 
 textarea {
   resize: none !important;
+}
+
+.toggle-theme-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4px;
+  justify-content: center;
+}
+
+.toggle-theme-wrapper span {
+  font-size: 28px;
+}
+
+.toggle-theme {
+  position: relative;
+  display: inline-block;
+  height: 34px;
+  width: 60px;
+}
+
+.toggle-theme input {
+  display: none;
+}
+
+.slider {
+  background-color: #ccc;
+  position: absolute;
+  cursor: pointer;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+  transition: 0.2s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: 0.4s;
+  width: 26px;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+input:checked + .slider {
+  background-color: cornflowerblue;
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+.prevent-select {
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }

@@ -1,8 +1,13 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent } from '@testing-library/react';
 import App from './App';
 import ContactForm from './components/Contact';
 import reportWebVitals from "./reportWebVitals";
 import About from './components/About/About';
+
+beforeEach(() => {
+  document.documentElement.classList.remove('dark-mode');
+  localStorage.clear();
+});
 
 // Test home page content
 test('Test home page content', () => {
@@ -61,4 +66,18 @@ test('Test AboutPage', () => {
     console.log("About page is rendered");
   }
   expect(aboutPage).not.toBeNull();
+});
+
+// Test if dark mode toggle is rendered
+test('Test DarkModeToggle', () => {
+  render(<App />);
+  const darkModeToggle = screen.getByRole('checkbox', { name: /Dark Mode/i });
+  expect(darkModeToggle).toBeInTheDocument();
+  expect(document.documentElement.classList.contains('dark-mode')).toBeFalsy();
+
+  fireEvent.click(darkModeToggle);
+  expect(document.documentElement.classList.contains('dark-mode')).toBeTruthy();
+
+  fireEvent.click(darkModeToggle);
+  expect(document.documentElement.classList.contains('dark-mode')).toBeFalsy();
 });

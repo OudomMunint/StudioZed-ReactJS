@@ -78,3 +78,4 @@ Time:        4.137 s
 
 ## Known Issues
 - Security issues found in dependencies but are low risk to this project, See dependabot alert [#26](https://github.com/OudomMunint/StudioZed-ReactJS/security/dependabot/26),  alert [#12](https://github.com/OudomMunint/StudioZed-ReactJS/security/dependabot/12).
+- For more information, see the [Security Tab](https://github.com/OudomMunint/StudioZed-ReactJS/security/dependabot).
