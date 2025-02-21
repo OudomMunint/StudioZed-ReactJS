@@ -4,6 +4,7 @@ import Student from "../../Assets/home-main.svg"
 import Tilt from "react-parallax-tilt";
 import carl from "../../Assets/carl.svg"
 import simone from "../../Assets/simone.svg"
+import ScrollTrigger from "../About/ScrollTrigger";
 
 import {
   // AiFillGithub,
@@ -22,7 +23,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          {/* <Col md={8} className="home-about-description">
           
             <h1 className="home2H1" style={{ fontSize: "2.2em", width: "500px", textAlign: "left"  }}>
               A University Of Newcastle <span className="purple"> Student Led </span> Design Studio.
@@ -61,7 +62,9 @@ function Home2() {
             <Tilt>
               <img src={Student} className="img-fluid" alt="avatar" style={{ minHeight: "450px" }}/>
             </Tilt>
-          </Col>
+          </Col> */}
+          <ScrollTrigger/>
+
         </Row>
       </Container>
       {/* about end */}
