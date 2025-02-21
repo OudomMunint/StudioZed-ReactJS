@@ -1093,3 +1093,25 @@ input:checked + .slider {
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
+
+.triggerDiv {
+  margin: 10vh 0;
+  font-size: 3.4rem;
+  letter-spacing: -1.2px;
+  color: #fff;
+  line-height: 1.2em;
+  width: 1000px;
+}
+.triggerSpan {
+  --opacity: 0.1;
+  opacity: var(--opacity);
+  --transition: opacity 0.3s ease-in-out;
+  transition: var(--transition);
+  width: 50%;
+  font-size: 5rem;
+  font-weight: 600;
+}
+.pro {
+  display: block;
+  margin-top: 2.2rem;
+}
