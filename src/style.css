@@ -1096,11 +1096,10 @@ input:checked + .slider {
 
 .triggerDiv {
   margin: 10vh 0;
-  font-size: 3.4rem;
+  font-size: 3rem;
   letter-spacing: -1.2px;
   color: #fff;
-  line-height: 1.2em;
-  width: 1000px;
+  line-height: 1.5em;
 }
 .triggerSpan {
   --opacity: 0.1;
