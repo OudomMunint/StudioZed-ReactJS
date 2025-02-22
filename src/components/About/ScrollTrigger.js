@@ -39,6 +39,8 @@ function ScrollTrigger() {
     });
 
     if (isDevelopment) { console.log(observer.thresholds, observer.rootMargin) }
+    console.log(observer.thresholds, observer.rootMargin)
+
 
     document.querySelectorAll('.triggerSpan').forEach((element) => {
       element.style.opacity = 0.1;
