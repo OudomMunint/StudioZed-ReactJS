@@ -8,7 +8,7 @@ import air from "../../Assets/air.png";
 import tina from "../../Assets/tina.png";
 import nag from "../../Assets/nag.png";
 import ScrollTrigger from "./ScrollTrigger";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 // import {
 //   DiJavascript1,
 //   DiReact,

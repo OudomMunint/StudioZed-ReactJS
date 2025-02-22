@@ -46,7 +46,7 @@ function ScrollTrigger() {
     });
 
     return () => observer.disconnect();
-  }, [isTablet, isDesktop]);
+  }, [isTablet, isDesktop, isDevelopment]);
 
   return (
     <Card className="quote-card-view">
