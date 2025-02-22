@@ -53,8 +53,6 @@ function Clients() {
       <Col xs={4} md={2} className="tech-icons">
         <img src={nag} className="img-fluid" alt="avatar"/>
       </Col>
-
-      <ScrollTrigger />
     </Row>
   );
 }
