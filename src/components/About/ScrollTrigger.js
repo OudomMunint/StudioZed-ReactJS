@@ -5,7 +5,7 @@ import { useMediaQuery } from "react-responsive";
 
 function ScrollTrigger() {
   
-  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1080 });
+  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1200 });
   const isDesktop = useMediaQuery({ minWidth: 1081 });
   const isDevelopment = process.env.NODE_ENV === "development";
 
@@ -34,12 +34,13 @@ function ScrollTrigger() {
       // Tablets options
       // threshold: 0.7,
       // rootMargin: "-50px",
-      threshold: isTablet ? 0.7 : 1,
-      rootMargin: isTablet ? "-50px" : "-150px",
+      threshold: isTablet ? 0.5 : 1,
+      rootMargin: isTablet ? "-200px" : "-150px",
     });
 
     if (isDevelopment) { console.log(observer.thresholds, observer.rootMargin) }
-    console.log(observer.thresholds, observer.rootMargin)
+    console.log(observer.thresholds, observer.rootMargin);
+    console.log(window.innerWidth, window.innerHeight);
 
 
     document.querySelectorAll('.triggerSpan').forEach((element) => {
