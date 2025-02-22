@@ -7,6 +7,7 @@ import nw from "../../Assets/nw.png";
 import air from "../../Assets/air.png";
 import tina from "../../Assets/tina.png";
 import nag from "../../Assets/nag.png";
+// import { useEffect } from "react";
 // import {
 //   DiJavascript1,
 //   DiReact,

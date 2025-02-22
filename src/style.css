@@ -1093,3 +1093,39 @@ input:checked + .slider {
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
+
+.triggerDiv {
+  margin: 10vh 0;
+  font-size: 3rem;
+  letter-spacing: -1.2px;
+  color: black;
+  line-height: 1.5em;
+}
+.dark-mode .triggerDiv {
+  color: #fff;
+}
+.triggerSpan {
+  --opacity: 0.1;
+  opacity: var(--opacity);
+  --transition: opacity 0.3s ease-in-out;
+  transition: var(--transition);
+  width: 50%;
+  font-size: 5rem;
+  font-weight: 600;
+}
+.pro {
+  display: block;
+  margin-top: 2.2rem;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* .triggerDiv {
+    font-size: 2rem;
+    letter-spacing: -1.2px;
+    color: #fff;
+    line-height: 1em;
+  }
+  .triggerSpan {
+    font-size: 3rem;
+  } */
+}
