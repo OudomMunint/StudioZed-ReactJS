@@ -1,12 +1,16 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { useEffect } from "react";
+import { useMediaQuery } from "react-responsive";
 
 function ScrollTrigger() {
+  
+  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1080 });
+  const isDesktop = useMediaQuery({ minWidth: 1081 });
+  const isDevelopment = process.env.NODE_ENV === "development";
 
   useEffect(() => {
     let currentIntersectedElement = null;
-
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
@@ -24,9 +28,17 @@ function ScrollTrigger() {
         }
       });
     }, {
-      threshold: 1,
-      rootMargin: "-150px",
+      // desktop and laptops options
+      // threshold: 1,
+      // rootMargin: "-150px",
+      // Tablets options
+      // threshold: 0.7,
+      // rootMargin: "-50px",
+      threshold: isTablet ? 0.7 : 1,
+      rootMargin: isTablet ? "-50px" : "-150px",
     });
+
+    if (isDevelopment) { console.log(observer.thresholds, observer.rootMargin) }
 
     document.querySelectorAll('.triggerSpan').forEach((element) => {
       element.style.opacity = 0.1;
@@ -34,7 +46,7 @@ function ScrollTrigger() {
     });
 
     return () => observer.disconnect();
-  }, []);
+  }, [isTablet, isDesktop]);
 
   return (
     <Card className="quote-card-view">
