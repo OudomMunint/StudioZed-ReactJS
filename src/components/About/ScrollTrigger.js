@@ -5,7 +5,7 @@ import { useMediaQuery } from "react-responsive";
 
 function ScrollTrigger() {
   
-  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1200 });
+  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1368 });
   const isDesktop = useMediaQuery({ minWidth: 1081 });
   const isDevelopment = process.env.NODE_ENV === "development";
 
