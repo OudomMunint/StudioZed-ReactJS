@@ -1114,3 +1114,15 @@ input:checked + .slider {
   display: block;
   margin-top: 2.2rem;
 }
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* .triggerDiv {
+    font-size: 2rem;
+    letter-spacing: -1.2px;
+    color: #fff;
+    line-height: 1em;
+  }
+  .triggerSpan {
+    font-size: 3rem;
+  } */
+}
