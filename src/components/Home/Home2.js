@@ -1,23 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Student from "../../Assets/home-main.svg"
+import Student from "../../Assets/coder.svg"
 import Tilt from "react-parallax-tilt";
 import carl from "../../Assets/carl.svg"
 import simone from "../../Assets/simone.svg"
 import ScrollTrigger from "../About/ScrollTrigger";
 import { useMediaQuery } from "react-responsive";
-
-import {
-  // AiFillGithub,
-  // AiOutlineTwitter,
-  // AiFillInstagram,
-  // AiFillDribbbleCircle,
-  // AiFillLinkedin,
-  AiOutlineLinkedin,
-  AiOutlineInstagram,
-} from "react-icons/ai";
-// import { FaLinkedinIn } from "react-icons/fa";
-// import myImg from "../../Assets/avatar.svg";
+import { AiOutlineLinkedin, AiOutlineInstagram, } from "react-icons/ai";
 
 function Home2() {
   const isLargeScreen = useMediaQuery({ query: "(min-width: 768px)" });
@@ -164,12 +153,6 @@ function Home2() {
               <br />
               <br />
               Reach out to Simone on
-              {/* <a target="_blank " href="https://www.instagram.com/zookraft/?hl=en">
-                <b className="purple">
-                  {" "}
-                  IG
-                </b>
-              </a> */}
               &nbsp;
               <a target="_blank " href="https://www.linkedin.com/in/simoneo/">
                 <b className="white" style={{fontSize:"30px"}}><AiOutlineInstagram className="fa-icon" /></b>

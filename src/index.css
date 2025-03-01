@@ -1,12 +1,6 @@
-/* Index style sheet */
 /* Import and change fonts here */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
 body {
   margin: 0;
-  /* font-family: "Raleway", serif !important;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
-  /* background-image: linear-gradient(to left, rgb(27 20 41), rgb(20 15 35));*/
   background-color: rgb(227, 227, 227) !important;
 }
 :root { font-family: 'Inter', sans-serif !important; }

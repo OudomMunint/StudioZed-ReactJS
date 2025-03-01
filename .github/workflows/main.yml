@@ -1,4 +1,4 @@
-name: PROD Build + Release
+name: CI Build + Release
 
 on:
   push:
