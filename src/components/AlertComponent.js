@@ -1,5 +1,3 @@
-// import React, { useState, useEffect, useCallback } from "react";
-
 const hideAlert = () => {
   const alertElement = document.querySelector(".alert-container");
   if (alertElement) {
