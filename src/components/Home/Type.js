@@ -1,5 +1,5 @@
-import React from "react";
 import Typewriter from "typewriter-effect";
+import React from "react";
 
 function Type() {
   return (
@@ -12,7 +12,7 @@ function Type() {
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 30,
       }}
     />
   );
